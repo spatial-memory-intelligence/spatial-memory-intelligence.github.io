@@ -2,7 +2,7 @@
 
 **Endowing World Models with Understanding-Driven Long-Term Memory**
 
-[Project website](https://spatial-memory-intelligence.github.io/)
+[Project website](https://spatial-memory-intelligence.github.io/) · [Code repository (private)](https://github.com/spatial-memory-intelligence/SMI)
 
 SMI uses a multimodal large language model to coordinate four spatial-memory operations for long-video world models:
 
@@ -13,7 +13,7 @@ SMI uses a multimodal large language model to coordinate four spatial-memory ope
 
 ## Release status
 
-This repository hosts the initial project website. Links to the paper, implementation, data, model weights, and video demonstrations will be added as resources become available.
+This repository hosts the initial project website. The Code links point to the private SMI development repository and require repository access. Links to the paper, data, model weights, and video demonstrations will be added as resources become available.
 
 ## Website
 
