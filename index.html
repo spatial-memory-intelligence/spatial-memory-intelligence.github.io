@@ -12,8 +12,8 @@
   <meta property="og:url" content="https://spatial-memory-intelligence.github.io/">
   <meta property="og:image" content="https://spatial-memory-intelligence.github.io/assets/teaser.png">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="style.css?v=20260928-2">
-  <script src="demo.js?v=20260928-2" defer></script>
+  <link rel="stylesheet" href="style.css?v=20260928-gallery">
+  <script src="demo.js?v=20260928-gallery" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -44,46 +44,37 @@
       <div class="section-heading"><div><span class="section-kicker">02 / THE FRAMEWORK</span><h2 id="method-title">Four operations. One memory manager.</h2></div><p>Organize, consolidate, retrieve,<br>and maintain spatial memory.</p></div>
       <figure class="figure-panel framework"><a href="assets/framework.png" target="_blank" rel="noopener" aria-label="Open SMI framework figure at full resolution"><img src="assets/framework.png" width="2399" height="1305" loading="lazy" alt="SMI architecture: an understanding model coordinates spatial clustering, within-cluster sparsification, action-aware retrieval, and reliability-aware filtering around persistent spatial memory."></a><figcaption><span>The SMI framework</span> An understanding model coordinates memory updates and retrieval for a video world model. <a href="assets/framework.pdf" target="_blank" rel="noopener">View PDF ↗</a></figcaption></figure>
       <div class="operations">
-        <article class="operation clustering"><div class="operation-top"><span>01</span><span>ORGANIZE</span></div><h3>Spatial<br>clustering</h3><p>Group spatially related observations into coherent memory clusters.</p></article>
-        <article class="operation sparsification"><div class="operation-top"><span>02</span><span>CONSOLIDATE</span></div><h3>Within-cluster<br>sparsification</h3><p>Remove redundant observations while retaining useful spatial evidence.</p></article>
-        <article class="operation retrieval"><div class="operation-top"><span>03</span><span>RETRIEVE</span></div><h3>Action-aware<br>retrieval</h3><p>Select memories using recent context and the action that comes next.</p></article>
-        <article class="operation filtering"><div class="operation-top"><span>04</span><span>MAINTAIN</span></div><h3>Reliability-aware<br>filtering</h3><p>Keep unreliable generated observations from entering persistent memory.</p></article>
+        <article class="operation clustering"><div class="operation-top"><span>01</span><span>ORGANIZE</span></div><h3>Spatial<br> clustering</h3><p>Group spatially related observations into coherent memory clusters.</p></article>
+        <article class="operation sparsification"><div class="operation-top"><span>02</span><span>CONSOLIDATE</span></div><h3>Within-cluster<br> sparsification</h3><p>Remove redundant observations while retaining useful spatial evidence.</p></article>
+        <article class="operation retrieval"><div class="operation-top"><span>03</span><span>RETRIEVE</span></div><h3>Action-aware<br> retrieval</h3><p>Select memories using recent context and the action that comes next.</p></article>
+        <article class="operation filtering"><div class="operation-top"><span>04</span><span>MAINTAIN</span></div><h3>Reliability-aware<br> filtering</h3><p>Keep unreliable generated observations from entering persistent memory.</p></article>
       </div>
     </section>
     <section class="section-wrap demos" id="demos" aria-labelledby="demos-title">
-      <div class="section-heading"><div><span class="section-kicker">03 / VIDEO COMPARISONS</span><h2 id="demos-title">Video comparisons</h2></div><p>6 cases · 2 backbones<br>Base, SMI, and five additional methods</p></div>
+      <div class="section-heading"><div><span class="section-kicker">03 / VIDEO COMPARISONS</span><h2 id="demos-title">Video comparisons</h2></div><p>Full trajectories.<br>Side-by-side, in sync.</p></div>
       <div class="demo-jump"><a href="#consistency">Spatial Consistency ↓</a><a href="#stability">Generation Stability ↓</a></div>
-      <section class="demo-group" id="consistency" aria-labelledby="consistency-title" data-category="spatial consistency">
-        <div class="demo-group-heading"><h3 id="consistency-title">Spatial Consistency</h3><span>3 cases</span></div>
-        <div class="scene-list" data-role="scene-list" role="group" aria-label="Choose a spatial consistency case"></div>
-        <div class="comparison" data-role="comparison">
-          <div class="comparison-heading"><h4 data-role="scene-title">Loading examples…</h4><span class="scene-meta" data-role="scene-meta"></span></div>
-          <div class="method-bar"><label for="consistency-method">Compare with <select id="consistency-method" data-role="method-select" disabled><option>Base</option></select></label><p data-role="coverage-note"></p></div>
-          <div class="video-pair">
-            <figure class="video-pane"><figcaption><strong data-role="baseline-label">Base</strong><span data-role="baseline-backbone"></span></figcaption><video data-role="baseline-video" preload="none" muted playsinline aria-label="Comparison method video"></video><a class="open-video" data-role="baseline-open" target="_blank" rel="noopener">Open video ↗</a></figure>
-            <figure class="video-pane smi-pane"><figcaption><strong><span class="smi-dot" aria-hidden="true"></span>SMI <small>Ours</small></strong><span data-role="smi-backbone"></span></figcaption><video data-role="smi-video" preload="none" muted playsinline aria-label="SMI video"></video><a class="open-video" data-role="smi-open" target="_blank" rel="noopener">Open video ↗</a></figure>
-          </div>
-          <div class="playback-controls"><button type="button" data-role="play-pair" class="play-button" disabled>Play both</button><button type="button" data-role="restart-pair" class="restart-button" disabled aria-label="Restart both videos">↺</button><label for="consistency-timeline" class="sr-only">Video timeline</label><input id="consistency-timeline" class="timeline" data-role="timeline" type="range" min="0" max="100" step="0.01" value="0" disabled><output class="time-display" data-role="time-display" for="consistency-timeline">0:00 / 0:00</output><label class="speed-label" for="consistency-speed"><span class="sr-only">Playback speed</span><select id="consistency-speed" data-role="playback-speed"><option value="1">1× speed</option><option value="2">2× speed</option><option value="4">4× speed</option></select></label><button type="button" class="expand-button" data-role="expand-pair" aria-label="Expand video comparison">⛶</button></div>
-          <div class="demo-footnote"><span>Full duration · Synchronized playback</span><span data-role="playback-status" role="status">Loading case list…</span></div>
-        </div>
+      <section class="demo-collection" id="consistency" aria-labelledby="consistency-title">
+        <div class="collection-heading"><h3 id="consistency-title">Spatial Consistency</h3><span>HY1.5 &amp; Wan2.2</span></div>
+        <div class="comparison-grid" data-category="spatial consistency"></div>
       </section>
-      <section class="demo-group" id="stability" aria-labelledby="stability-title" data-category="generation stability">
-        <div class="demo-group-heading"><h3 id="stability-title">Generation Stability</h3><span>3 cases</span></div>
-        <div class="scene-list" data-role="scene-list" role="group" aria-label="Choose a generation stability case"></div>
-        <div class="comparison" data-role="comparison">
-          <div class="comparison-heading"><h4 data-role="scene-title">Loading examples…</h4><span class="scene-meta" data-role="scene-meta"></span></div>
-          <div class="method-bar"><label for="stability-method">Compare with <select id="stability-method" data-role="method-select" disabled><option>Base</option></select></label><p data-role="coverage-note"></p></div>
-          <div class="video-pair">
-            <figure class="video-pane"><figcaption><strong data-role="baseline-label">Base</strong><span data-role="baseline-backbone"></span></figcaption><video data-role="baseline-video" preload="none" muted playsinline aria-label="Comparison method video"></video><a class="open-video" data-role="baseline-open" target="_blank" rel="noopener">Open video ↗</a></figure>
-            <figure class="video-pane smi-pane"><figcaption><strong><span class="smi-dot" aria-hidden="true"></span>SMI <small>Ours</small></strong><span data-role="smi-backbone"></span></figcaption><video data-role="smi-video" preload="none" muted playsinline aria-label="SMI video"></video><a class="open-video" data-role="smi-open" target="_blank" rel="noopener">Open video ↗</a></figure>
-          </div>
-          <div class="playback-controls"><button type="button" data-role="play-pair" class="play-button" disabled>Play both</button><button type="button" data-role="restart-pair" class="restart-button" disabled aria-label="Restart both videos">↺</button><label for="stability-timeline" class="sr-only">Video timeline</label><input id="stability-timeline" class="timeline" data-role="timeline" type="range" min="0" max="100" step="0.01" value="0" disabled><output class="time-display" data-role="time-display" for="stability-timeline">0:00 / 0:00</output><label class="speed-label" for="stability-speed"><span class="sr-only">Playback speed</span><select id="stability-speed" data-role="playback-speed"><option value="1">1× speed</option><option value="2">2× speed</option><option value="4">4× speed</option></select></label><button type="button" class="expand-button" data-role="expand-pair" aria-label="Expand video comparison">⛶</button></div>
-          <div class="demo-footnote"><span>Full duration · Synchronized playback</span><span data-role="playback-status" role="status">Loading case list…</span></div>
-        </div>
+      <section class="demo-collection" id="stability" aria-labelledby="stability-title">
+        <div class="collection-heading"><h3 id="stability-title">Generation Stability</h3><span>HY1.5 &amp; Wan2.2</span></div>
+        <div class="comparison-grid" data-category="generation stability"></div>
       </section>
-      <p class="selection-note">Select a case, then choose a comparison method. Cases marked “7 methods” include all five additional baselines.</p>
-      <noscript><p>Enable JavaScript to use the synchronized players. <a href="assets/videos/hy15-11/smi.mp4">Watch an SMI video directly.</a></p></noscript>
+      <p class="demo-load-status" role="status">Loading videos…</p>
+      <noscript><p>Enable JavaScript to use the comparison gallery. <a href="assets/videos/hy15-11/smi.mp4">Watch an SMI video directly.</a></p></noscript>
     </section>
+    <template id="comparison-template">
+      <article class="comparison" data-role="comparison">
+        <div class="comparison-heading"><h4 data-role="scene-title"></h4><div class="method-switch"><label><span class="sr-only">Compare with</span><select data-role="method-select" aria-label="Compare with"><option>Base</option></select></label></div><span class="scene-meta" data-role="scene-meta"></span><span data-role="coverage-note" class="sr-only"></span></div>
+        <div class="video-pair">
+          <figure class="video-pane"><figcaption><strong data-role="baseline-label">Base</strong><span class="sr-only" data-role="baseline-backbone"></span></figcaption><video data-role="baseline-video" preload="none" muted playsinline></video><a class="open-video" data-role="baseline-open" target="_blank" rel="noopener" aria-label="Open comparison video">↗</a></figure>
+          <figure class="video-pane smi-pane"><figcaption><strong>SMI <small>Ours</small></strong><span class="sr-only" data-role="smi-backbone"></span></figcaption><video data-role="smi-video" preload="none" muted playsinline></video><a class="open-video" data-role="smi-open" target="_blank" rel="noopener" aria-label="Open SMI video">↗</a></figure>
+        </div>
+        <div class="playback-controls"><button type="button" data-role="play-pair" class="play-button" disabled>Play both</button><button type="button" data-role="restart-pair" class="icon-button" disabled aria-label="Restart both videos">↺</button><output class="time-display" data-role="time-display">0:00 / 0:00</output><select class="speed-select" data-role="playback-speed" aria-label="Playback speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select><button type="button" class="icon-button" data-role="expand-pair" aria-label="Expand comparison">⛶</button><input class="timeline" data-role="timeline" type="range" aria-label="Video timeline" min="0" max="100" step="0.01" value="0" disabled></div>
+        <span data-role="playback-status" class="sr-only" role="status">Ready</span>
+      </article>
+    </template>
     <section class="section-wrap resources" id="resources" aria-labelledby="resources-title">
       <div class="section-heading"><div><span class="section-kicker">04 / EXPLORE FURTHER</span><h2 id="resources-title">Resources</h2></div><p>This page will grow with<br>the project’s public release.</p></div>
       <div class="resource-list">

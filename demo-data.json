@@ -1,10 +1,28 @@
 [
   {
+    "id": "hy15-5",
+    "backbone": "HY1.5",
+    "case": "5",
+    "category": "Spatial consistency",
+    "paper": "Teaser \u00b7 spatial consistency example",
+    "all_methods": false,
+    "methods": {
+      "Base": "assets/videos/hy15-5/base.mp4",
+      "SMI": "assets/videos/hy15-5/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-5-base.jpg",
+      "SMI": "assets/posters/hy15-5-smi.jpg"
+    },
+    "duration": 45.208333,
+    "fps": "24/1"
+  },
+  {
     "id": "wan22-91",
     "backbone": "Wan2.2",
     "case": "91",
     "category": "Spatial consistency",
-    "paper": "Main paper · Wan2.2 qualitative comparison",
+    "paper": "Main paper \u00b7 Wan2.2 qualitative comparison",
     "all_methods": true,
     "methods": {
       "Base": "assets/videos/wan22-91/base.mp4",
@@ -28,21 +46,37 @@
     "fps": "16/1"
   },
   {
-    "id": "hy15-5",
+    "id": "hy15-69002",
     "backbone": "HY1.5",
-    "case": "5",
+    "case": "69002",
     "category": "Spatial consistency",
-    "paper": "Teaser · spatial consistency example",
     "all_methods": false,
     "methods": {
-      "Base": "assets/videos/hy15-5/base.mp4",
-      "SMI": "assets/videos/hy15-5/smi.mp4"
+      "Base": "assets/videos/hy15-69002/base.mp4",
+      "SMI": "assets/videos/hy15-69002/smi.mp4"
     },
     "posters": {
-      "Base": "assets/posters/hy15-5-base.jpg",
-      "SMI": "assets/posters/hy15-5-smi.jpg"
+      "Base": "assets/posters/hy15-69002-base.jpg",
+      "SMI": "assets/posters/hy15-69002-smi.jpg"
     },
-    "duration": 45.208333,
+    "duration": 45.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "hy15-69006",
+    "backbone": "HY1.5",
+    "case": "69006",
+    "category": "Spatial consistency",
+    "all_methods": false,
+    "methods": {
+      "Base": "assets/videos/hy15-69006/base.mp4",
+      "SMI": "assets/videos/hy15-69006/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-69006-base.jpg",
+      "SMI": "assets/posters/hy15-69006-smi.jpg"
+    },
+    "duration": 45.0,
     "fps": "24/1"
   },
   {
@@ -50,7 +84,7 @@
     "backbone": "Wan2.2",
     "case": "33",
     "category": "Spatial consistency",
-    "paper": "Main paper · Wan2.2 qualitative comparison",
+    "paper": "Main paper \u00b7 Wan2.2 qualitative comparison",
     "all_methods": true,
     "methods": {
       "Base": "assets/videos/wan22-33/base.mp4",
@@ -74,11 +108,82 @@
     "fps": "16/1"
   },
   {
+    "id": "wan22-106",
+    "backbone": "Wan2.2",
+    "case": "106",
+    "category": "Spatial consistency",
+    "all_methods": true,
+    "methods": {
+      "Base": "assets/videos/wan22-106/base.mp4",
+      "SMI": "assets/videos/wan22-106/smi.mp4",
+      "FramePack": "assets/videos/wan22-106/framepack.mp4",
+      "Deep Forcing": "assets/videos/wan22-106/deep-forcing.mp4",
+      "MoC": "assets/videos/wan22-106/moc.mp4",
+      "VMem": "assets/videos/wan22-106/vmem.mp4",
+      "MemFlow": "assets/videos/wan22-106/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-106-base.jpg",
+      "SMI": "assets/posters/wan22-106-smi.jpg",
+      "FramePack": "assets/posters/wan22-106-framepack.jpg",
+      "Deep Forcing": "assets/posters/wan22-106-deep-forcing.jpg",
+      "MoC": "assets/posters/wan22-106-moc.jpg",
+      "VMem": "assets/posters/wan22-106-vmem.jpg",
+      "MemFlow": "assets/posters/wan22-106-memflow.jpg"
+    },
+    "duration": 15.8125,
+    "fps": "16/1"
+  },
+  {
+    "id": "hy15-10",
+    "backbone": "HY1.5",
+    "case": "10",
+    "category": "Spatial consistency",
+    "all_methods": true,
+    "methods": {
+      "Base": "assets/videos/hy15-10/base.mp4",
+      "SMI": "assets/videos/hy15-10/smi.mp4",
+      "FramePack": "assets/videos/hy15-10/framepack.mp4",
+      "Deep Forcing": "assets/videos/hy15-10/deep-forcing.mp4",
+      "MoC": "assets/videos/hy15-10/moc.mp4",
+      "VMem": "assets/videos/hy15-10/vmem.mp4",
+      "MemFlow": "assets/videos/hy15-10/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-10-base.jpg",
+      "SMI": "assets/posters/hy15-10-smi.jpg",
+      "FramePack": "assets/posters/hy15-10-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-10-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-10-moc.jpg",
+      "VMem": "assets/posters/hy15-10-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-10-memflow.jpg"
+    },
+    "duration": 45.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "wan22-60065",
+    "backbone": "Wan2.2",
+    "case": "60065",
+    "category": "Spatial consistency",
+    "all_methods": false,
+    "methods": {
+      "Base": "assets/videos/wan22-60065/base.mp4",
+      "SMI": "assets/videos/wan22-60065/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-60065-base.jpg",
+      "SMI": "assets/posters/wan22-60065-smi.jpg"
+    },
+    "duration": 16.0,
+    "fps": "24/1"
+  },
+  {
     "id": "hy15-11",
     "backbone": "HY1.5",
     "case": "11",
     "category": "Generation stability",
-    "paper": "Appendix · HY1.5 qualitative comparison",
+    "paper": "Appendix \u00b7 HY1.5 qualitative comparison",
     "all_methods": true,
     "methods": {
       "Base": "assets/videos/hy15-11/base.mp4",
@@ -106,7 +211,7 @@
     "backbone": "HY1.5",
     "case": "108",
     "category": "Generation stability",
-    "paper": "Teaser · generation stability example",
+    "paper": "Teaser \u00b7 generation stability example",
     "all_methods": false,
     "methods": {
       "Base": "assets/videos/hy15-108/base.mp4",
@@ -135,6 +240,33 @@
       "SMI": "assets/posters/hy15-104-smi.jpg"
     },
     "duration": 65.208333,
+    "fps": "24/1"
+  },
+  {
+    "id": "wan22-60016",
+    "backbone": "Wan2.2",
+    "case": "60016",
+    "category": "Generation stability",
+    "all_methods": true,
+    "methods": {
+      "Base": "assets/videos/wan22-60016/base.mp4",
+      "SMI": "assets/videos/wan22-60016/smi.mp4",
+      "FramePack": "assets/videos/wan22-60016/framepack.mp4",
+      "Deep Forcing": "assets/videos/wan22-60016/deep-forcing.mp4",
+      "MoC": "assets/videos/wan22-60016/moc.mp4",
+      "VMem": "assets/videos/wan22-60016/vmem.mp4",
+      "MemFlow": "assets/videos/wan22-60016/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-60016-base.jpg",
+      "SMI": "assets/posters/wan22-60016-smi.jpg",
+      "FramePack": "assets/posters/wan22-60016-framepack.jpg",
+      "Deep Forcing": "assets/posters/wan22-60016-deep-forcing.jpg",
+      "MoC": "assets/posters/wan22-60016-moc.jpg",
+      "VMem": "assets/posters/wan22-60016-vmem.jpg",
+      "MemFlow": "assets/posters/wan22-60016-memflow.jpg"
+    },
+    "duration": 60.0,
     "fps": "24/1"
   }
 ]

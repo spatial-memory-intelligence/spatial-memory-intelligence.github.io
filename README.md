@@ -17,16 +17,9 @@ This repository hosts the project website and selected video demonstrations. The
 
 ## Video demonstrations
 
-Six selected, full-duration examples are split into Spatial Consistency and Generation Stability, after the method overview. Each collection has its own synchronized player. SMI remains on the right, and the comparison method can be changed on the left. Starting one player pauses the other.
+Twelve selected, full-duration examples are displayed directly in a comparison grid, after the method overview. Spatial Consistency has eight comparisons; Generation Stability has four. Desktop shows two comparison groups per row; mobile shows one. Scene names and dataset case numbers are omitted from the visible interface.
 
-| Category | Backbone | Case | Duration | Comparisons |
-| --- | --- | --- | --- | --- |
-| Spatial consistency | Wan2.2 | 91 | 15.81 s | All seven methods |
-| Spatial consistency | HY1.5 | 5 | 45.21 s | Base and SMI |
-| Spatial consistency | Wan2.2 | 33 | 15.81 s | All seven methods |
-| Generation stability | HY1.5 | 11 | 65.21 s | All seven methods |
-| Generation stability | HY1.5 | 108 | 65.21 s | Base and SMI |
-| Generation stability | HY1.5 | 104 | 65.21 s | Base and SMI |
+Every group has its own synchronized Base/SMI player, with SMI on the right. Six groups additionally support FramePack, Deep Forcing, MoC, VMem, and MemFlow through the comparison selector. Starting a group pauses all other groups. Videos load near the viewport and can be expanded for closer inspection.
 
 The seven methods are Base, FramePack, Deep Forcing, MoC, VMem, MemFlow, and SMI. These are selected qualitative examples, not the complete evaluation set. Every published video preserves its source video stream, frame count, resolution, frame rate, and full duration. MP4 metadata is moved to the beginning for web playback; the images are not re-encoded. Default playback is 1×, with optional 2× and 4× controls applied equally to both videos.
 
