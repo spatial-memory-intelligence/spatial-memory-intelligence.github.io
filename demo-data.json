@@ -15,7 +15,119 @@
       "SMI": "assets/posters/hy15-5-smi.jpg"
     },
     "duration": 45.208333,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Changed sculpture and new furnishings on first revisit",
+        "keys": [
+          [
+            23.7,
+            0.81,
+            0.22,
+            0.992,
+            0.985
+          ],
+          [
+            24,
+            0.755,
+            0.22,
+            0.992,
+            0.985
+          ],
+          [
+            25,
+            0.725,
+            0.22,
+            0.992,
+            0.985
+          ],
+          [
+            26,
+            0.82,
+            0.25,
+            0.995,
+            0.985
+          ],
+          [
+            27,
+            0.85,
+            0.27,
+            0.995,
+            0.985
+          ],
+          [
+            27.7,
+            0.95,
+            0.3,
+            0.995,
+            0.985
+          ]
+        ]
+      },
+      {
+        "method": "Base",
+        "reason": "Changed sculpture and furnishings on second revisit",
+        "keys": [
+          [
+            36.4,
+            0.87,
+            0.28,
+            0.995,
+            0.985
+          ],
+          [
+            37,
+            0.85,
+            0.27,
+            0.995,
+            0.985
+          ],
+          [
+            38,
+            0.78,
+            0.25,
+            0.995,
+            0.985
+          ],
+          [
+            39,
+            0.71,
+            0.24,
+            0.995,
+            0.985
+          ],
+          [
+            40,
+            0.67,
+            0.24,
+            0.995,
+            0.985
+          ],
+          [
+            42,
+            0.82,
+            0.25,
+            0.995,
+            0.985
+          ],
+          [
+            44,
+            0.755,
+            0.25,
+            0.995,
+            0.985
+          ],
+          [
+            45.2,
+            0.68,
+            0.24,
+            0.995,
+            0.985
+          ]
+        ]
+      }
+    ]
   },
   {
     "id": "wan22-91",
@@ -43,7 +155,78 @@
       "MemFlow": "assets/posters/wan22-91-memflow.jpg"
     },
     "duration": 15.8125,
-    "fps": "16/1"
+    "fps": "16/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "New white pedestal and changed foreground wooden structure",
+        "keys": [
+          [
+            11.8,
+            0.875,
+            0.235,
+            0.994,
+            0.97
+          ],
+          [
+            12,
+            0.825,
+            0.235,
+            0.994,
+            0.97
+          ],
+          [
+            13,
+            0.555,
+            0.24,
+            0.955,
+            0.975
+          ],
+          [
+            13.5,
+            0.43,
+            0.24,
+            0.85,
+            0.975
+          ],
+          [
+            14,
+            0.27,
+            0.22,
+            0.76,
+            0.975
+          ],
+          [
+            14.5,
+            0.13,
+            0.24,
+            0.61,
+            0.98
+          ],
+          [
+            15,
+            0.015,
+            0.23,
+            0.555,
+            0.98
+          ],
+          [
+            15.75,
+            0.015,
+            0.2,
+            0.45,
+            0.98
+          ],
+          [
+            15.8125,
+            0.015,
+            0.2,
+            0.45,
+            0.98
+          ]
+        ]
+      }
+    ]
   },
   {
     "id": "hy15-69002",
@@ -60,7 +243,8 @@
       "SMI": "assets/posters/hy15-69002-smi.jpg"
     },
     "duration": 45.0,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": []
   },
   {
     "id": "hy15-69006",
@@ -77,7 +261,8 @@
       "SMI": "assets/posters/hy15-69006-smi.jpg"
     },
     "duration": 45.0,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": []
   },
   {
     "id": "wan22-33",
@@ -105,7 +290,71 @@
       "MemFlow": "assets/posters/wan22-33-memflow.jpg"
     },
     "duration": 15.8125,
-    "fps": "16/1"
+    "fps": "16/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Gray aisle replaced by orange patterned paving",
+        "keys": [
+          [
+            12.9,
+            0.295,
+            0.87,
+            0.53,
+            0.985
+          ],
+          [
+            13,
+            0.29,
+            0.85,
+            0.55,
+            0.985
+          ],
+          [
+            13.5,
+            0.26,
+            0.75,
+            0.57,
+            0.985
+          ],
+          [
+            14,
+            0.2,
+            0.69,
+            0.6,
+            0.985
+          ],
+          [
+            14.5,
+            0.2,
+            0.55,
+            0.71,
+            0.985
+          ],
+          [
+            15,
+            0.16,
+            0.5,
+            0.75,
+            0.985
+          ],
+          [
+            15.75,
+            0.15,
+            0.38,
+            0.81,
+            0.985
+          ],
+          [
+            15.8125,
+            0.15,
+            0.38,
+            0.81,
+            0.985
+          ]
+        ]
+      }
+    ]
   },
   {
     "id": "wan22-106",
@@ -132,7 +381,85 @@
       "MemFlow": "assets/posters/wan22-106-memflow.jpg"
     },
     "duration": 15.8125,
-    "fps": "16/1"
+    "fps": "16/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Red distorted structures replace the original left-side geometry",
+        "keys": [
+          [
+            11.5,
+            0.006,
+            0.025,
+            0.14,
+            0.55
+          ],
+          [
+            12,
+            0.006,
+            0.025,
+            0.18,
+            0.57
+          ],
+          [
+            12.5,
+            0.006,
+            0.025,
+            0.23,
+            0.57
+          ],
+          [
+            13,
+            0.006,
+            0.025,
+            0.26,
+            0.57
+          ],
+          [
+            13.5,
+            0.006,
+            0.025,
+            0.31,
+            0.57
+          ],
+          [
+            14,
+            0.006,
+            0.025,
+            0.4,
+            0.73
+          ],
+          [
+            14.5,
+            0.006,
+            0.025,
+            0.445,
+            0.71
+          ],
+          [
+            15,
+            0.006,
+            0.025,
+            0.52,
+            0.69
+          ],
+          [
+            15.75,
+            0.006,
+            0.025,
+            0.59,
+            0.7
+          ],
+          [
+            15.8125,
+            0.006,
+            0.025,
+            0.59,
+            0.7
+          ]
+        ]
+      }
+    ]
   },
   {
     "id": "hy15-10",
@@ -159,7 +486,78 @@
       "MemFlow": "assets/posters/hy15-10-memflow.jpg"
     },
     "duration": 45.0,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Missing lion statue beside the left staircase",
+        "keys": [
+          [
+            12.2,
+            0.055,
+            0.13,
+            0.16,
+            0.43
+          ],
+          [
+            13,
+            0.155,
+            0.12,
+            0.265,
+            0.425
+          ],
+          [
+            13.55,
+            0.17,
+            0.125,
+            0.28,
+            0.425
+          ],
+          [
+            14,
+            0.175,
+            0.12,
+            0.285,
+            0.425
+          ],
+          [
+            15,
+            0.16,
+            0.13,
+            0.275,
+            0.435
+          ],
+          [
+            16,
+            0.17,
+            0.12,
+            0.29,
+            0.43
+          ],
+          [
+            18,
+            0.24,
+            0.15,
+            0.36,
+            0.48
+          ],
+          [
+            20,
+            0.27,
+            0.15,
+            0.39,
+            0.49
+          ],
+          [
+            22,
+            0.415,
+            0.15,
+            0.54,
+            0.47
+          ]
+        ]
+      }
+    ]
   },
   {
     "id": "wan22-60065",
@@ -176,7 +574,8 @@
       "SMI": "assets/posters/wan22-60065-smi.jpg"
     },
     "duration": 16.0,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": []
   },
   {
     "id": "hy15-11",
@@ -204,7 +603,92 @@
       "MemFlow": "assets/posters/hy15-11-memflow.jpg"
     },
     "duration": 65.208333,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Tree canopy and trunk break into floating geometric fragments",
+        "keys": [
+          [
+            45,
+            0.59,
+            0.01,
+            0.99,
+            0.4
+          ],
+          [
+            47,
+            0.6,
+            0.01,
+            0.99,
+            0.41
+          ],
+          [
+            49,
+            0.48,
+            0.01,
+            0.99,
+            0.41
+          ],
+          [
+            51,
+            0.6,
+            0.01,
+            0.99,
+            0.43
+          ],
+          [
+            53,
+            0.74,
+            0.01,
+            0.99,
+            0.35
+          ],
+          [
+            55,
+            0.76,
+            0.01,
+            0.99,
+            0.34
+          ],
+          [
+            57,
+            0.62,
+            0.01,
+            0.99,
+            0.4
+          ],
+          [
+            59,
+            0.56,
+            0.01,
+            0.99,
+            0.47
+          ],
+          [
+            61,
+            0.55,
+            0.01,
+            0.99,
+            0.56
+          ],
+          [
+            63,
+            0.62,
+            0.01,
+            0.99,
+            0.55
+          ],
+          [
+            65.208333,
+            0.58,
+            0.01,
+            0.99,
+            0.55
+          ]
+        ]
+      }
+    ]
   },
   {
     "id": "hy15-108",
@@ -222,7 +706,71 @@
       "SMI": "assets/posters/hy15-108-smi.jpg"
     },
     "duration": 65.208333,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Cloud texture degenerates into repeated dark cellular patches",
+        "keys": [
+          [
+            52,
+            0.03,
+            0.02,
+            0.92,
+            0.24
+          ],
+          [
+            54,
+            0.03,
+            0.02,
+            0.94,
+            0.27
+          ],
+          [
+            56,
+            0.02,
+            0.02,
+            0.94,
+            0.26
+          ],
+          [
+            58,
+            0.02,
+            0.02,
+            0.92,
+            0.27
+          ],
+          [
+            60,
+            0.02,
+            0.02,
+            0.96,
+            0.35
+          ],
+          [
+            62,
+            0.02,
+            0.02,
+            0.97,
+            0.33
+          ],
+          [
+            64,
+            0.02,
+            0.02,
+            0.97,
+            0.37
+          ],
+          [
+            65.208333,
+            0.02,
+            0.02,
+            0.97,
+            0.36
+          ]
+        ]
+      }
+    ]
   },
   {
     "id": "hy15-104",
@@ -240,7 +788,8 @@
       "SMI": "assets/posters/hy15-104-smi.jpg"
     },
     "duration": 65.208333,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": []
   },
   {
     "id": "wan22-60016",
@@ -267,6 +816,61 @@
       "MemFlow": "assets/posters/wan22-60016-memflow.jpg"
     },
     "duration": 60.0,
-    "fps": "24/1"
+    "fps": "24/1",
+    "annotations": []
+  },
+  {
+    "id": "hy15-29",
+    "backbone": "HY1.5",
+    "case": "29",
+    "category": "Spatial consistency",
+    "all_methods": false,
+    "methods": {
+      "Base": "assets/videos/hy15-29/base.mp4",
+      "SMI": "assets/videos/hy15-29/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-29-base.jpg",
+      "SMI": "assets/posters/hy15-29-smi.jpg"
+    },
+    "duration": 39.875,
+    "fps": "24/1",
+    "annotations": []
+  },
+  {
+    "id": "hy15-4",
+    "backbone": "HY1.5",
+    "case": "4",
+    "category": "Generation stability",
+    "all_methods": false,
+    "methods": {
+      "Base": "assets/videos/hy15-4/base.mp4",
+      "SMI": "assets/videos/hy15-4/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-4-base.jpg",
+      "SMI": "assets/posters/hy15-4-smi.jpg"
+    },
+    "duration": 65.208333,
+    "fps": "24/1",
+    "annotations": []
+  },
+  {
+    "id": "hy15-52",
+    "backbone": "HY1.5",
+    "case": "52",
+    "category": "Generation stability",
+    "all_methods": false,
+    "methods": {
+      "Base": "assets/videos/hy15-52/base.mp4",
+      "SMI": "assets/videos/hy15-52/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-52-base.jpg",
+      "SMI": "assets/posters/hy15-52-smi.jpg"
+    },
+    "duration": 65.208333,
+    "fps": "24/1",
+    "annotations": []
   }
 ]

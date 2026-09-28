@@ -10,6 +10,7 @@
     const left = $('baseline-video'), right = $('smi-video'), videos = [left, right];
     const play = $('play-pair'), timeline = $('timeline'), speed = $('playback-speed');
     let selected, wanted = false, starting = false, pendingTime = 0, generation = 0, loaded = false;
+    let activeTracks = [], highlightIndex = 0;
     const duration = () => selected?.duration || 0;
     const status = text => { const el = $('playback-status'); el.textContent = text; el.className = /could not|try again|unavailable/i.test(text) ? 'playback-error' : 'sr-only'; };
     const pause = () => { wanted = false; videos.forEach(v => v.pause()); play.textContent = 'Play both'; status('Paused'); };
@@ -21,6 +22,32 @@
       timeline.style.setProperty('--progress', `${duration() ? t / duration() * 100 : 0}%`);
       $('time-display').textContent = `${fmt(t)} / ${fmt(duration())}`;
       timeline.setAttribute('aria-valuetext', `${t.toFixed(1)} seconds of ${duration().toFixed(1)} seconds`);
+    }
+    function prepareHighlights(method) {
+      activeTracks = (selected.annotations || []).filter(track => track.method === method || track.method === 'SMI');
+      ['baseline-annotations', 'smi-annotations'].forEach(role => $(role).replaceChildren());
+      activeTracks = activeTracks.map(track => {
+        const box = document.createElement('div'); box.className = 'annotation-box'; box.hidden = true;
+        $(track.method === 'SMI' ? 'smi-annotations' : 'baseline-annotations').append(box);
+        return { ...track, box };
+      });
+      highlightIndex = 0;
+      $('highlight-jump').hidden = !activeTracks.length;
+    }
+    function drawHighlights() {
+      activeTracks.forEach(track => {
+        const video = track.method === 'SMI' ? right : left;
+        const t = video.readyState >= 2 && !video.seeking ? video.currentTime : -1;
+        const keys = track.keys;
+        const active = t >= keys[0][0] && t <= keys[keys.length - 1][0];
+        track.box.hidden = !active;
+        if (!active) return;
+        let i = 1;
+        while (i < keys.length - 1 && keys[i][0] < t) i++;
+        const a = keys[i - 1], b = keys[i], ratio = Math.max(0, Math.min(1, (t - a[0]) / (b[0] - a[0])));
+        const xy = a.slice(1).map((value, j) => value + (b[j + 1] - value) * ratio);
+        Object.assign(track.box.style, {left: `${xy[0]*100}%`, top: `${xy[1]*100}%`, width: `${(xy[2]-xy[0])*100}%`, height: `${(xy[3]-xy[1])*100}%`});
+      });
     }
     async function start() {
       if (!wanted || starting || videos.some(v => v.readyState < 3 || v.seeking)) return;
@@ -55,6 +82,7 @@
       pause(); generation++; pendingTime = t; loaded = false;
       const method = $('method-select').value;
       $('baseline-label').textContent = method;
+      prepareHighlights(method);
       videos.forEach((v, i) => {
         const name = i ? 'SMI' : method;
         v.removeAttribute('src'); v.load();
@@ -88,6 +116,14 @@
     });
     $('restart-pair').addEventListener('click', () => { pause(); loadSources(); seek(0); status('Ready'); });
     $('method-select').addEventListener('change', () => loadPair(loaded ? right.currentTime : pendingTime, true));
+    $('highlight-jump').addEventListener('click', () => {
+      const marks = activeTracks.map(track => track.keys[Math.min(1, track.keys.length - 1)][0]).sort((a,b) => a-b);
+      if (!marks.length) return;
+      pause(); loadSources(); seek(marks[highlightIndex++ % marks.length]);
+      const toggle = document.getElementById('show-highlights'); toggle.checked = true;
+      document.getElementById('demos').classList.remove('annotations-off');
+      status('Paused at a highlighted moment');
+    });
     timeline.addEventListener('input', () => { pause(); loadSources(); seek(Number(timeline.value)); status('Paused'); });
     speed.addEventListener('change', () => videos.forEach(v => { v.playbackRate = Number(speed.value); }));
     $('expand-pair').addEventListener('click', async () => {
@@ -106,6 +142,7 @@
       v.addEventListener('ended', () => { pause(); showTime(duration()); status('Complete · replay or choose another video'); });
     });
     function tick() {
+      drawHighlights();
       if (wanted && !right.paused && !right.seeking) {
         if (!left.seeking && Math.abs(left.currentTime - right.currentTime) > .12) left.currentTime = right.currentTime;
         showTime(right.currentTime);
@@ -120,10 +157,13 @@
     }
   }
   document.addEventListener('visibilitychange', () => { if (document.hidden) players.forEach(p => p.pause()); });
-  fetch('demo-data.json?v=20260928-gallery').then(r => { if (!r.ok) throw new Error('Manifest unavailable'); return r.json(); }).then(data => {
+  document.getElementById('show-highlights').addEventListener('change', event => {
+    document.getElementById('demos').classList.toggle('annotations-off', !event.target.checked);
+  });
+  fetch('demo-data.json?v=20260928-highlights').then(r => { if (!r.ok) throw new Error('Manifest unavailable'); return r.json(); }).then(data => {
     const template = document.getElementById('comparison-template');
     document.querySelectorAll('.comparison-grid').forEach(grid => {
-      data.filter(c => c.category.toLowerCase() === grid.dataset.category).forEach(scene => {
+      data.filter(c => c.category.toLowerCase() === grid.dataset.category && c.backbone === grid.dataset.backbone).forEach(scene => {
         const card = template.content.firstElementChild.cloneNode(true);
         card.dataset.media = scene.id;
         grid.append(card);

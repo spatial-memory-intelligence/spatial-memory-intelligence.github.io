@@ -17,9 +17,11 @@ This repository hosts the project website and selected video demonstrations. The
 
 ## Video demonstrations
 
-Twelve selected, full-duration examples are displayed directly in a comparison grid, after the method overview. Spatial Consistency has eight comparisons; Generation Stability has four. Desktop shows two comparison groups per row; mobile shows one. Scene names and dataset case numbers are omitted from the visible interface.
+Fifteen selected, full-duration examples are displayed after the method overview. HY1.5 and Wan2.2 have separate sections, each divided into Spatial Consistency and Generation Stability. HY1.5 has five consistency and five stability comparisons; Wan2.2 has four consistency and one stability comparison. Desktop shows two comparison groups per row; mobile shows one. Scene names and dataset case numbers are omitted from the visible interface.
 
 Every group has its own synchronized Base/SMI player, with SMI on the right. Six groups additionally support FramePack, Deep Forcing, MoC, VMem, and MemFlow through the comparison selector. Starting a group pauses all other groups. Videos load near the viewport and can be expanded for closer inspection.
+
+Seven groups include manually checked red-box highlights for selected visual inconsistencies. Boxes follow timestamped coordinates and disappear outside the annotated interval. The outline button jumps to a highlighted moment; the global checkbox toggles overlays. Annotations belong to a specific method and are cleared when switching to an unannotated method. These selected highlights are illustrative, not exhaustive error labels or quantitative evaluation. Original video pixels are unchanged.
 
 The seven methods are Base, FramePack, Deep Forcing, MoC, VMem, MemFlow, and SMI. These are selected qualitative examples, not the complete evaluation set. Every published video preserves its source video stream, frame count, resolution, frame rate, and full duration. MP4 metadata is moved to the beginning for web playback; the images are not re-encoded. Default playback is 1×, with optional 2× and 4× controls applied equally to both videos.
 

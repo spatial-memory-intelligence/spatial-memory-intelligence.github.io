@@ -12,8 +12,8 @@
   <meta property="og:url" content="https://spatial-memory-intelligence.github.io/">
   <meta property="og:image" content="https://spatial-memory-intelligence.github.io/assets/teaser.png">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="style.css?v=20260928-gallery">
-  <script src="demo.js?v=20260928-gallery" defer></script>
+  <link rel="stylesheet" href="style.css?v=20260928-highlights">
+  <script src="demo.js?v=20260928-highlights" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -52,24 +52,39 @@
     </section>
     <section class="section-wrap demos" id="demos" aria-labelledby="demos-title">
       <div class="section-heading"><div><span class="section-kicker">03 / VIDEO COMPARISONS</span><h2 id="demos-title">Video comparisons</h2></div><p>Full trajectories.<br>Side-by-side, in sync.</p></div>
-      <div class="demo-jump"><a href="#consistency">Spatial Consistency ↓</a><a href="#stability">Generation Stability ↓</a></div>
-      <section class="demo-collection" id="consistency" aria-labelledby="consistency-title">
-        <div class="collection-heading"><h3 id="consistency-title">Spatial Consistency</h3><span>HY1.5 &amp; Wan2.2</span></div>
-        <div class="comparison-grid" data-category="spatial consistency"></div>
+      <div class="demo-jump"><a href="#consistency">HY1.5 · Consistency ↓</a><a href="#stability">HY1.5 · Stability ↓</a><a href="#wan-consistency">Wan2.2 · Consistency ↓</a><a href="#wan-stability">Wan2.2 · Stability ↓</a></div>
+      <div class="highlight-guide"><label><input type="checkbox" id="show-highlights" checked> Show red-box highlights</label><span>Selected visual inconsistencies, marked as they appear.</span></div>
+      <section class="backbone-group" aria-labelledby="hy15-demos-title">
+        <div class="backbone-heading"><h3 id="hy15-demos-title">HY1.5</h3><span>Video comparisons</span></div>
+        <section class="demo-collection" id="consistency" aria-labelledby="consistency-title">
+          <div class="collection-heading"><h4 id="consistency-title">Spatial Consistency</h4></div>
+          <div class="comparison-grid" data-backbone="HY1.5" data-category="spatial consistency"></div>
+        </section>
+        <section class="demo-collection" id="stability" aria-labelledby="stability-title">
+          <div class="collection-heading"><h4 id="stability-title">Generation Stability</h4></div>
+          <div class="comparison-grid" data-backbone="HY1.5" data-category="generation stability"></div>
+        </section>
       </section>
-      <section class="demo-collection" id="stability" aria-labelledby="stability-title">
-        <div class="collection-heading"><h3 id="stability-title">Generation Stability</h3><span>HY1.5 &amp; Wan2.2</span></div>
-        <div class="comparison-grid" data-category="generation stability"></div>
+      <section class="backbone-group" aria-labelledby="wan-demos-title">
+        <div class="backbone-heading"><h3 id="wan-demos-title">Wan2.2</h3><span>Video comparisons</span></div>
+        <section class="demo-collection" id="wan-consistency" aria-labelledby="wan-consistency-title">
+          <div class="collection-heading"><h4 id="wan-consistency-title">Spatial Consistency</h4></div>
+          <div class="comparison-grid" data-backbone="Wan2.2" data-category="spatial consistency"></div>
+        </section>
+        <section class="demo-collection" id="wan-stability" aria-labelledby="wan-stability-title">
+          <div class="collection-heading"><h4 id="wan-stability-title">Generation Stability</h4></div>
+          <div class="comparison-grid" data-backbone="Wan2.2" data-category="generation stability"></div>
+        </section>
       </section>
       <p class="demo-load-status" role="status">Loading videos…</p>
       <noscript><p>Enable JavaScript to use the comparison gallery. <a href="assets/videos/hy15-11/smi.mp4">Watch an SMI video directly.</a></p></noscript>
     </section>
     <template id="comparison-template">
       <article class="comparison" data-role="comparison">
-        <div class="comparison-heading"><h4 data-role="scene-title"></h4><div class="method-switch"><label><span class="sr-only">Compare with</span><select data-role="method-select" aria-label="Compare with"><option>Base</option></select></label></div><span class="scene-meta" data-role="scene-meta"></span><span data-role="coverage-note" class="sr-only"></span></div>
+        <div class="comparison-heading"><h4 data-role="scene-title"></h4><div class="method-switch"><label><span class="sr-only">Compare with</span><select data-role="method-select" aria-label="Compare with"><option>Base</option></select></label></div><button type="button" class="highlight-jump" data-role="highlight-jump" aria-label="Jump to highlighted moment" title="Jump to highlighted moment" hidden>□</button><span class="scene-meta" data-role="scene-meta"></span><span data-role="coverage-note" class="sr-only"></span></div>
         <div class="video-pair">
-          <figure class="video-pane"><figcaption><strong data-role="baseline-label">Base</strong><span class="sr-only" data-role="baseline-backbone"></span></figcaption><video data-role="baseline-video" preload="none" muted playsinline></video><a class="open-video" data-role="baseline-open" target="_blank" rel="noopener" aria-label="Open comparison video">↗</a></figure>
-          <figure class="video-pane smi-pane"><figcaption><strong>SMI <small>Ours</small></strong><span class="sr-only" data-role="smi-backbone"></span></figcaption><video data-role="smi-video" preload="none" muted playsinline></video><a class="open-video" data-role="smi-open" target="_blank" rel="noopener" aria-label="Open SMI video">↗</a></figure>
+          <figure class="video-pane"><figcaption><strong data-role="baseline-label">Base</strong><span class="sr-only" data-role="baseline-backbone"></span></figcaption><div class="video-stage"><video data-role="baseline-video" preload="none" muted playsinline></video><div class="annotation-layer" data-role="baseline-annotations" aria-hidden="true"></div></div><a class="open-video" data-role="baseline-open" target="_blank" rel="noopener" aria-label="Open comparison video">↗</a></figure>
+          <figure class="video-pane smi-pane"><figcaption><strong>SMI <small>Ours</small></strong><span class="sr-only" data-role="smi-backbone"></span></figcaption><div class="video-stage"><video data-role="smi-video" preload="none" muted playsinline></video><div class="annotation-layer" data-role="smi-annotations" aria-hidden="true"></div></div><a class="open-video" data-role="smi-open" target="_blank" rel="noopener" aria-label="Open SMI video">↗</a></figure>
         </div>
         <div class="playback-controls"><button type="button" data-role="play-pair" class="play-button" disabled>Play both</button><button type="button" data-role="restart-pair" class="icon-button" disabled aria-label="Restart both videos">↺</button><output class="time-display" data-role="time-display">0:00 / 0:00</output><select class="speed-select" data-role="playback-speed" aria-label="Playback speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select><button type="button" class="icon-button" data-role="expand-pair" aria-label="Expand comparison">⛶</button><input class="timeline" data-role="timeline" type="range" aria-label="Video timeline" min="0" max="100" step="0.01" value="0" disabled></div>
         <span data-role="playback-status" class="sr-only" role="status">Ready</span>
