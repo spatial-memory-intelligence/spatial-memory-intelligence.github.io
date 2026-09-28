@@ -1,0 +1,7 @@
+# Videos are served from the same public repository's media CDN.
+# Keep the Pages deployment small without recompressing research footage.
+exclude:
+  - assets/videos
+  - README.md
+  - Gemfile
+  - Gemfile.lock

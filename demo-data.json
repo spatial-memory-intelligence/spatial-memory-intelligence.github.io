@@ -1,14 +1,85 @@
 [
   {
+    "id": "hy15-38",
+    "backbone": "HY1.5",
+    "case": "38",
+    "category": "Spatial consistency",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-38/base.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-38/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-38/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-38/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-38/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-38/memflow.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-38/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-38-base.jpg",
+      "FramePack": "assets/posters/hy15-38-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-38-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-38-moc.jpg",
+      "VMem": "assets/posters/hy15-38-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-38-memflow.jpg",
+      "SMI": "assets/posters/hy15-38-smi.jpg"
+    },
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Changed counter and furniture layout when moving back to the initial library view",
+        "keys": [
+          [
+            36,
+            0.84,
+            0.44,
+            0.995,
+            0.985
+          ],
+          [
+            37,
+            0.77,
+            0.44,
+            0.995,
+            0.985
+          ],
+          [
+            38,
+            0.66,
+            0.44,
+            0.995,
+            0.985
+          ],
+          [
+            39,
+            0.62,
+            0.44,
+            0.995,
+            0.985
+          ],
+          [
+            39.875,
+            0.61,
+            0.43,
+            0.995,
+            0.985
+          ]
+        ]
+      }
+    ],
+    "paper": "正文 HY1.5 定性图 (a)",
+    "duration": 39.875,
+    "fps": "24/1"
+  },
+  {
     "id": "hy15-5",
     "backbone": "HY1.5",
     "case": "5",
     "category": "Spatial consistency",
-    "paper": "Teaser \u00b7 spatial consistency example",
+    "paper": "Teaser · spatial consistency example",
     "all_methods": false,
     "methods": {
-      "Base": "assets/videos/hy15-5/base.mp4",
-      "SMI": "assets/videos/hy15-5/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-5/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-5/smi.mp4"
     },
     "posters": {
       "Base": "assets/posters/hy15-5-base.jpg",
@@ -130,351 +201,19 @@
     ]
   },
   {
-    "id": "wan22-91",
-    "backbone": "Wan2.2",
-    "case": "91",
-    "category": "Spatial consistency",
-    "paper": "Main paper \u00b7 Wan2.2 qualitative comparison",
-    "all_methods": true,
-    "methods": {
-      "Base": "assets/videos/wan22-91/base.mp4",
-      "SMI": "assets/videos/wan22-91/smi.mp4",
-      "FramePack": "assets/videos/wan22-91/framepack.mp4",
-      "Deep Forcing": "assets/videos/wan22-91/deep-forcing.mp4",
-      "MoC": "assets/videos/wan22-91/moc.mp4",
-      "VMem": "assets/videos/wan22-91/vmem.mp4",
-      "MemFlow": "assets/videos/wan22-91/memflow.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/wan22-91-base.jpg",
-      "SMI": "assets/posters/wan22-91-smi.jpg",
-      "FramePack": "assets/posters/wan22-91-framepack.jpg",
-      "Deep Forcing": "assets/posters/wan22-91-deep-forcing.jpg",
-      "MoC": "assets/posters/wan22-91-moc.jpg",
-      "VMem": "assets/posters/wan22-91-vmem.jpg",
-      "MemFlow": "assets/posters/wan22-91-memflow.jpg"
-    },
-    "duration": 15.8125,
-    "fps": "16/1",
-    "annotations": [
-      {
-        "method": "Base",
-        "reason": "New white pedestal and changed foreground wooden structure",
-        "keys": [
-          [
-            11.8,
-            0.875,
-            0.235,
-            0.994,
-            0.97
-          ],
-          [
-            12,
-            0.825,
-            0.235,
-            0.994,
-            0.97
-          ],
-          [
-            13,
-            0.555,
-            0.24,
-            0.955,
-            0.975
-          ],
-          [
-            13.5,
-            0.43,
-            0.24,
-            0.85,
-            0.975
-          ],
-          [
-            14,
-            0.27,
-            0.22,
-            0.76,
-            0.975
-          ],
-          [
-            14.5,
-            0.13,
-            0.24,
-            0.61,
-            0.98
-          ],
-          [
-            15,
-            0.015,
-            0.23,
-            0.555,
-            0.98
-          ],
-          [
-            15.75,
-            0.015,
-            0.2,
-            0.45,
-            0.98
-          ],
-          [
-            15.8125,
-            0.015,
-            0.2,
-            0.45,
-            0.98
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "id": "hy15-69002",
-    "backbone": "HY1.5",
-    "case": "69002",
-    "category": "Spatial consistency",
-    "all_methods": false,
-    "methods": {
-      "Base": "assets/videos/hy15-69002/base.mp4",
-      "SMI": "assets/videos/hy15-69002/smi.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/hy15-69002-base.jpg",
-      "SMI": "assets/posters/hy15-69002-smi.jpg"
-    },
-    "duration": 45.0,
-    "fps": "24/1",
-    "annotations": []
-  },
-  {
-    "id": "hy15-69006",
-    "backbone": "HY1.5",
-    "case": "69006",
-    "category": "Spatial consistency",
-    "all_methods": false,
-    "methods": {
-      "Base": "assets/videos/hy15-69006/base.mp4",
-      "SMI": "assets/videos/hy15-69006/smi.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/hy15-69006-base.jpg",
-      "SMI": "assets/posters/hy15-69006-smi.jpg"
-    },
-    "duration": 45.0,
-    "fps": "24/1",
-    "annotations": []
-  },
-  {
-    "id": "wan22-33",
-    "backbone": "Wan2.2",
-    "case": "33",
-    "category": "Spatial consistency",
-    "paper": "Main paper \u00b7 Wan2.2 qualitative comparison",
-    "all_methods": true,
-    "methods": {
-      "Base": "assets/videos/wan22-33/base.mp4",
-      "SMI": "assets/videos/wan22-33/smi.mp4",
-      "FramePack": "assets/videos/wan22-33/framepack.mp4",
-      "Deep Forcing": "assets/videos/wan22-33/deep-forcing.mp4",
-      "MoC": "assets/videos/wan22-33/moc.mp4",
-      "VMem": "assets/videos/wan22-33/vmem.mp4",
-      "MemFlow": "assets/videos/wan22-33/memflow.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/wan22-33-base.jpg",
-      "SMI": "assets/posters/wan22-33-smi.jpg",
-      "FramePack": "assets/posters/wan22-33-framepack.jpg",
-      "Deep Forcing": "assets/posters/wan22-33-deep-forcing.jpg",
-      "MoC": "assets/posters/wan22-33-moc.jpg",
-      "VMem": "assets/posters/wan22-33-vmem.jpg",
-      "MemFlow": "assets/posters/wan22-33-memflow.jpg"
-    },
-    "duration": 15.8125,
-    "fps": "16/1",
-    "annotations": [
-      {
-        "method": "Base",
-        "reason": "Gray aisle replaced by orange patterned paving",
-        "keys": [
-          [
-            12.9,
-            0.295,
-            0.87,
-            0.53,
-            0.985
-          ],
-          [
-            13,
-            0.29,
-            0.85,
-            0.55,
-            0.985
-          ],
-          [
-            13.5,
-            0.26,
-            0.75,
-            0.57,
-            0.985
-          ],
-          [
-            14,
-            0.2,
-            0.69,
-            0.6,
-            0.985
-          ],
-          [
-            14.5,
-            0.2,
-            0.55,
-            0.71,
-            0.985
-          ],
-          [
-            15,
-            0.16,
-            0.5,
-            0.75,
-            0.985
-          ],
-          [
-            15.75,
-            0.15,
-            0.38,
-            0.81,
-            0.985
-          ],
-          [
-            15.8125,
-            0.15,
-            0.38,
-            0.81,
-            0.985
-          ]
-        ]
-      }
-    ]
-  },
-  {
-    "id": "wan22-106",
-    "backbone": "Wan2.2",
-    "case": "106",
-    "category": "Spatial consistency",
-    "all_methods": true,
-    "methods": {
-      "Base": "assets/videos/wan22-106/base.mp4",
-      "SMI": "assets/videos/wan22-106/smi.mp4",
-      "FramePack": "assets/videos/wan22-106/framepack.mp4",
-      "Deep Forcing": "assets/videos/wan22-106/deep-forcing.mp4",
-      "MoC": "assets/videos/wan22-106/moc.mp4",
-      "VMem": "assets/videos/wan22-106/vmem.mp4",
-      "MemFlow": "assets/videos/wan22-106/memflow.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/wan22-106-base.jpg",
-      "SMI": "assets/posters/wan22-106-smi.jpg",
-      "FramePack": "assets/posters/wan22-106-framepack.jpg",
-      "Deep Forcing": "assets/posters/wan22-106-deep-forcing.jpg",
-      "MoC": "assets/posters/wan22-106-moc.jpg",
-      "VMem": "assets/posters/wan22-106-vmem.jpg",
-      "MemFlow": "assets/posters/wan22-106-memflow.jpg"
-    },
-    "duration": 15.8125,
-    "fps": "16/1",
-    "annotations": [
-      {
-        "method": "Base",
-        "reason": "Red distorted structures replace the original left-side geometry",
-        "keys": [
-          [
-            11.5,
-            0.006,
-            0.025,
-            0.14,
-            0.55
-          ],
-          [
-            12,
-            0.006,
-            0.025,
-            0.18,
-            0.57
-          ],
-          [
-            12.5,
-            0.006,
-            0.025,
-            0.23,
-            0.57
-          ],
-          [
-            13,
-            0.006,
-            0.025,
-            0.26,
-            0.57
-          ],
-          [
-            13.5,
-            0.006,
-            0.025,
-            0.31,
-            0.57
-          ],
-          [
-            14,
-            0.006,
-            0.025,
-            0.4,
-            0.73
-          ],
-          [
-            14.5,
-            0.006,
-            0.025,
-            0.445,
-            0.71
-          ],
-          [
-            15,
-            0.006,
-            0.025,
-            0.52,
-            0.69
-          ],
-          [
-            15.75,
-            0.006,
-            0.025,
-            0.59,
-            0.7
-          ],
-          [
-            15.8125,
-            0.006,
-            0.025,
-            0.59,
-            0.7
-          ]
-        ]
-      }
-    ]
-  },
-  {
     "id": "hy15-10",
     "backbone": "HY1.5",
     "case": "10",
     "category": "Spatial consistency",
     "all_methods": true,
     "methods": {
-      "Base": "assets/videos/hy15-10/base.mp4",
-      "SMI": "assets/videos/hy15-10/smi.mp4",
-      "FramePack": "assets/videos/hy15-10/framepack.mp4",
-      "Deep Forcing": "assets/videos/hy15-10/deep-forcing.mp4",
-      "MoC": "assets/videos/hy15-10/moc.mp4",
-      "VMem": "assets/videos/hy15-10/vmem.mp4",
-      "MemFlow": "assets/videos/hy15-10/memflow.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-10/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-10/smi.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-10/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-10/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-10/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-10/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-10/memflow.mp4"
     },
     "posters": {
       "Base": "assets/posters/hy15-10-base.jpg",
@@ -560,38 +299,352 @@
     ]
   },
   {
-    "id": "wan22-60065",
-    "backbone": "Wan2.2",
-    "case": "60065",
+    "id": "hy15-61002",
+    "backbone": "HY1.5",
+    "case": "61002",
+    "category": "Spatial consistency",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-61002/base.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-61002/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-61002/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-61002/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-61002/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-61002/memflow.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-61002/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-61002-base.jpg",
+      "FramePack": "assets/posters/hy15-61002-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-61002-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-61002-moc.jpg",
+      "VMem": "assets/posters/hy15-61002-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-61002-memflow.jpg",
+      "SMI": "assets/posters/hy15-61002-smi.jpg"
+    },
+    "annotations": [],
+    "paper": "附录 HY1.5 第2张对比图 (b)",
+    "duration": 45.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "hy15-62001",
+    "backbone": "HY1.5",
+    "case": "62001",
+    "category": "Spatial consistency",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62001/base.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62001/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62001/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62001/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62001/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62001/memflow.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62001/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-62001-base.jpg",
+      "FramePack": "assets/posters/hy15-62001-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-62001-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-62001-moc.jpg",
+      "VMem": "assets/posters/hy15-62001-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-62001-memflow.jpg",
+      "SMI": "assets/posters/hy15-62001-smi.jpg"
+    },
+    "annotations": [],
+    "paper": "附录 HY1.5 第3张对比图 (a)",
+    "duration": 45.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "hy15-62002",
+    "backbone": "HY1.5",
+    "case": "62002",
+    "category": "Spatial consistency",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62002/base.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62002/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62002/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62002/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62002/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62002/memflow.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62002/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-62002-base.jpg",
+      "FramePack": "assets/posters/hy15-62002-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-62002-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-62002-moc.jpg",
+      "VMem": "assets/posters/hy15-62002-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-62002-memflow.jpg",
+      "SMI": "assets/posters/hy15-62002-smi.jpg"
+    },
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "New bell tower absent from the initial courtyard",
+        "keys": [
+          [
+            11.8,
+            0.885,
+            0.1,
+            0.995,
+            0.42
+          ],
+          [
+            12,
+            0.88,
+            0.1,
+            0.995,
+            0.42
+          ],
+          [
+            14,
+            0.72,
+            0.17,
+            0.84,
+            0.43
+          ],
+          [
+            16,
+            0.735,
+            0.18,
+            0.85,
+            0.43
+          ],
+          [
+            18,
+            0.62,
+            0.13,
+            0.745,
+            0.43
+          ],
+          [
+            20,
+            0.605,
+            0.14,
+            0.735,
+            0.43
+          ],
+          [
+            22,
+            0.53,
+            0.16,
+            0.65,
+            0.46
+          ],
+          [
+            24,
+            0.545,
+            0.07,
+            0.675,
+            0.45
+          ],
+          [
+            26,
+            0.55,
+            0.07,
+            0.675,
+            0.45
+          ],
+          [
+            28,
+            0.52,
+            0.045,
+            0.65,
+            0.45
+          ],
+          [
+            30,
+            0.69,
+            0.01,
+            0.825,
+            0.46
+          ],
+          [
+            32,
+            0.695,
+            0.01,
+            0.83,
+            0.41
+          ],
+          [
+            34,
+            0.79,
+            0.01,
+            0.925,
+            0.4
+          ],
+          [
+            36,
+            0.79,
+            0.01,
+            0.94,
+            0.35
+          ],
+          [
+            38,
+            0.61,
+            0.015,
+            0.74,
+            0.42
+          ],
+          [
+            40,
+            0.675,
+            0.01,
+            0.8,
+            0.34
+          ],
+          [
+            42,
+            0.675,
+            0.01,
+            0.8,
+            0.36
+          ],
+          [
+            44.99,
+            0.72,
+            0.01,
+            0.85,
+            0.33
+          ]
+        ]
+      }
+    ],
+    "paper": "附录 HY1.5 第3张对比图 (b)",
+    "duration": 45.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "hy15-62003",
+    "backbone": "HY1.5",
+    "case": "62003",
+    "category": "Spatial consistency",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/base.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/memflow.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-62003-base.jpg",
+      "FramePack": "assets/posters/hy15-62003-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-62003-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-62003-moc.jpg",
+      "VMem": "assets/posters/hy15-62003-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-62003-memflow.jpg",
+      "SMI": "assets/posters/hy15-62003-smi.jpg"
+    },
+    "annotations": [],
+    "paper": "附录 HY1.5 第4张对比图 (a)",
+    "duration": 45.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "hy15-29",
+    "backbone": "HY1.5",
+    "case": "29",
     "category": "Spatial consistency",
     "all_methods": false,
     "methods": {
-      "Base": "assets/videos/wan22-60065/base.mp4",
-      "SMI": "assets/videos/wan22-60065/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-29/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-29/smi.mp4"
     },
     "posters": {
-      "Base": "assets/posters/wan22-60065-base.jpg",
-      "SMI": "assets/posters/wan22-60065-smi.jpg"
+      "Base": "assets/posters/hy15-29-base.jpg",
+      "SMI": "assets/posters/hy15-29-smi.jpg"
     },
-    "duration": 16.0,
+    "duration": 39.875,
     "fps": "24/1",
     "annotations": []
+  },
+  {
+    "id": "hy15-69002",
+    "backbone": "HY1.5",
+    "case": "69002",
+    "category": "Spatial consistency",
+    "all_methods": false,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-69002/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-69002/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-69002-base.jpg",
+      "SMI": "assets/posters/hy15-69002-smi.jpg"
+    },
+    "duration": 45.0,
+    "fps": "24/1",
+    "annotations": []
+  },
+  {
+    "id": "hy15-69006",
+    "backbone": "HY1.5",
+    "case": "69006",
+    "category": "Spatial consistency",
+    "all_methods": false,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-69006/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-69006/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-69006-base.jpg",
+      "SMI": "assets/posters/hy15-69006-smi.jpg"
+    },
+    "duration": 45.0,
+    "fps": "24/1",
+    "annotations": []
+  },
+  {
+    "id": "hy15-25",
+    "backbone": "HY1.5",
+    "case": "25",
+    "category": "Generation stability",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/base.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/memflow.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-25-base.jpg",
+      "FramePack": "assets/posters/hy15-25-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-25-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-25-moc.jpg",
+      "VMem": "assets/posters/hy15-25-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-25-memflow.jpg",
+      "SMI": "assets/posters/hy15-25-smi.jpg"
+    },
+    "annotations": [],
+    "paper": "正文 HY1.5 定性图 (b)",
+    "duration": 65.208333,
+    "fps": "24/1"
   },
   {
     "id": "hy15-11",
     "backbone": "HY1.5",
     "case": "11",
     "category": "Generation stability",
-    "paper": "Appendix \u00b7 HY1.5 qualitative comparison",
+    "paper": "Appendix · HY1.5 qualitative comparison",
     "all_methods": true,
     "methods": {
-      "Base": "assets/videos/hy15-11/base.mp4",
-      "SMI": "assets/videos/hy15-11/smi.mp4",
-      "FramePack": "assets/videos/hy15-11/framepack.mp4",
-      "Deep Forcing": "assets/videos/hy15-11/deep-forcing.mp4",
-      "MoC": "assets/videos/hy15-11/moc.mp4",
-      "VMem": "assets/videos/hy15-11/vmem.mp4",
-      "MemFlow": "assets/videos/hy15-11/memflow.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/smi.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/memflow.mp4"
     },
     "posters": {
       "Base": "assets/posters/hy15-11-base.jpg",
@@ -691,15 +744,73 @@
     ]
   },
   {
+    "id": "hy15-64005",
+    "backbone": "HY1.5",
+    "case": "64005",
+    "category": "Generation stability",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64005/base.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64005/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64005/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64005/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64005/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64005/memflow.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64005/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-64005-base.jpg",
+      "FramePack": "assets/posters/hy15-64005-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-64005-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-64005-moc.jpg",
+      "VMem": "assets/posters/hy15-64005-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-64005-memflow.jpg",
+      "SMI": "assets/posters/hy15-64005-smi.jpg"
+    },
+    "annotations": [],
+    "paper": "附录 HY1.5 第1张对比图 (b)",
+    "duration": 60.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "hy15-64004",
+    "backbone": "HY1.5",
+    "case": "64004",
+    "category": "Generation stability",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64004/base.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64004/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64004/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64004/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64004/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64004/memflow.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-64004/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-64004-base.jpg",
+      "FramePack": "assets/posters/hy15-64004-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-64004-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-64004-moc.jpg",
+      "VMem": "assets/posters/hy15-64004-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-64004-memflow.jpg",
+      "SMI": "assets/posters/hy15-64004-smi.jpg"
+    },
+    "annotations": [],
+    "paper": "附录 HY1.5 第4张对比图 (b)",
+    "duration": 60.0,
+    "fps": "24/1"
+  },
+  {
     "id": "hy15-108",
     "backbone": "HY1.5",
     "case": "108",
     "category": "Generation stability",
-    "paper": "Teaser \u00b7 generation stability example",
+    "paper": "Teaser · generation stability example",
     "all_methods": false,
     "methods": {
-      "Base": "assets/videos/hy15-108/base.mp4",
-      "SMI": "assets/videos/hy15-108/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-108/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-108/smi.mp4"
     },
     "posters": {
       "Base": "assets/posters/hy15-108-base.jpg",
@@ -780,8 +891,8 @@
     "paper": "Additional HY1.5 example",
     "all_methods": false,
     "methods": {
-      "Base": "assets/videos/hy15-104/base.mp4",
-      "SMI": "assets/videos/hy15-104/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-104/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-104/smi.mp4"
     },
     "posters": {
       "Base": "assets/posters/hy15-104-base.jpg",
@@ -792,60 +903,14 @@
     "annotations": []
   },
   {
-    "id": "wan22-60016",
-    "backbone": "Wan2.2",
-    "case": "60016",
-    "category": "Generation stability",
-    "all_methods": true,
-    "methods": {
-      "Base": "assets/videos/wan22-60016/base.mp4",
-      "SMI": "assets/videos/wan22-60016/smi.mp4",
-      "FramePack": "assets/videos/wan22-60016/framepack.mp4",
-      "Deep Forcing": "assets/videos/wan22-60016/deep-forcing.mp4",
-      "MoC": "assets/videos/wan22-60016/moc.mp4",
-      "VMem": "assets/videos/wan22-60016/vmem.mp4",
-      "MemFlow": "assets/videos/wan22-60016/memflow.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/wan22-60016-base.jpg",
-      "SMI": "assets/posters/wan22-60016-smi.jpg",
-      "FramePack": "assets/posters/wan22-60016-framepack.jpg",
-      "Deep Forcing": "assets/posters/wan22-60016-deep-forcing.jpg",
-      "MoC": "assets/posters/wan22-60016-moc.jpg",
-      "VMem": "assets/posters/wan22-60016-vmem.jpg",
-      "MemFlow": "assets/posters/wan22-60016-memflow.jpg"
-    },
-    "duration": 60.0,
-    "fps": "24/1",
-    "annotations": []
-  },
-  {
-    "id": "hy15-29",
-    "backbone": "HY1.5",
-    "case": "29",
-    "category": "Spatial consistency",
-    "all_methods": false,
-    "methods": {
-      "Base": "assets/videos/hy15-29/base.mp4",
-      "SMI": "assets/videos/hy15-29/smi.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/hy15-29-base.jpg",
-      "SMI": "assets/posters/hy15-29-smi.jpg"
-    },
-    "duration": 39.875,
-    "fps": "24/1",
-    "annotations": []
-  },
-  {
     "id": "hy15-4",
     "backbone": "HY1.5",
     "case": "4",
     "category": "Generation stability",
     "all_methods": false,
     "methods": {
-      "Base": "assets/videos/hy15-4/base.mp4",
-      "SMI": "assets/videos/hy15-4/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-4/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-4/smi.mp4"
     },
     "posters": {
       "Base": "assets/posters/hy15-4-base.jpg",
@@ -862,8 +927,8 @@
     "category": "Generation stability",
     "all_methods": false,
     "methods": {
-      "Base": "assets/videos/hy15-52/base.mp4",
-      "SMI": "assets/videos/hy15-52/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-52/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-52/smi.mp4"
     },
     "posters": {
       "Base": "assets/posters/hy15-52-base.jpg",
@@ -872,5 +937,401 @@
     "duration": 65.208333,
     "fps": "24/1",
     "annotations": []
+  },
+  {
+    "id": "wan22-91",
+    "backbone": "Wan2.2",
+    "case": "91",
+    "category": "Spatial consistency",
+    "paper": "Main paper · Wan2.2 qualitative comparison",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-91/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-91/smi.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-91/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-91/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-91/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-91/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-91/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-91-base.jpg",
+      "SMI": "assets/posters/wan22-91-smi.jpg",
+      "FramePack": "assets/posters/wan22-91-framepack.jpg",
+      "Deep Forcing": "assets/posters/wan22-91-deep-forcing.jpg",
+      "MoC": "assets/posters/wan22-91-moc.jpg",
+      "VMem": "assets/posters/wan22-91-vmem.jpg",
+      "MemFlow": "assets/posters/wan22-91-memflow.jpg"
+    },
+    "duration": 15.8125,
+    "fps": "16/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "New white pedestal and changed foreground wooden structure",
+        "keys": [
+          [
+            11.8,
+            0.875,
+            0.235,
+            0.994,
+            0.97
+          ],
+          [
+            12,
+            0.825,
+            0.235,
+            0.994,
+            0.97
+          ],
+          [
+            13,
+            0.555,
+            0.24,
+            0.955,
+            0.975
+          ],
+          [
+            13.5,
+            0.43,
+            0.24,
+            0.85,
+            0.975
+          ],
+          [
+            14,
+            0.27,
+            0.22,
+            0.76,
+            0.975
+          ],
+          [
+            14.5,
+            0.13,
+            0.24,
+            0.61,
+            0.98
+          ],
+          [
+            15,
+            0.015,
+            0.23,
+            0.555,
+            0.98
+          ],
+          [
+            15.75,
+            0.015,
+            0.2,
+            0.45,
+            0.98
+          ],
+          [
+            15.8125,
+            0.015,
+            0.2,
+            0.45,
+            0.98
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wan22-33",
+    "backbone": "Wan2.2",
+    "case": "33",
+    "category": "Spatial consistency",
+    "paper": "Main paper · Wan2.2 qualitative comparison",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-33/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-33/smi.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-33/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-33/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-33/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-33/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-33/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-33-base.jpg",
+      "SMI": "assets/posters/wan22-33-smi.jpg",
+      "FramePack": "assets/posters/wan22-33-framepack.jpg",
+      "Deep Forcing": "assets/posters/wan22-33-deep-forcing.jpg",
+      "MoC": "assets/posters/wan22-33-moc.jpg",
+      "VMem": "assets/posters/wan22-33-vmem.jpg",
+      "MemFlow": "assets/posters/wan22-33-memflow.jpg"
+    },
+    "duration": 15.8125,
+    "fps": "16/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Gray aisle replaced by orange patterned paving",
+        "keys": [
+          [
+            12.9,
+            0.295,
+            0.87,
+            0.53,
+            0.985
+          ],
+          [
+            13,
+            0.29,
+            0.85,
+            0.55,
+            0.985
+          ],
+          [
+            13.5,
+            0.26,
+            0.75,
+            0.57,
+            0.985
+          ],
+          [
+            14,
+            0.2,
+            0.69,
+            0.6,
+            0.985
+          ],
+          [
+            14.5,
+            0.2,
+            0.55,
+            0.71,
+            0.985
+          ],
+          [
+            15,
+            0.16,
+            0.5,
+            0.75,
+            0.985
+          ],
+          [
+            15.75,
+            0.15,
+            0.38,
+            0.81,
+            0.985
+          ],
+          [
+            15.8125,
+            0.15,
+            0.38,
+            0.81,
+            0.985
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wan22-106",
+    "backbone": "Wan2.2",
+    "case": "106",
+    "category": "Spatial consistency",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/smi.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-106-base.jpg",
+      "SMI": "assets/posters/wan22-106-smi.jpg",
+      "FramePack": "assets/posters/wan22-106-framepack.jpg",
+      "Deep Forcing": "assets/posters/wan22-106-deep-forcing.jpg",
+      "MoC": "assets/posters/wan22-106-moc.jpg",
+      "VMem": "assets/posters/wan22-106-vmem.jpg",
+      "MemFlow": "assets/posters/wan22-106-memflow.jpg"
+    },
+    "duration": 15.8125,
+    "fps": "16/1",
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "Red distorted structures replace the original left-side geometry",
+        "keys": [
+          [
+            11.5,
+            0.006,
+            0.025,
+            0.14,
+            0.55
+          ],
+          [
+            12,
+            0.006,
+            0.025,
+            0.18,
+            0.57
+          ],
+          [
+            12.5,
+            0.006,
+            0.025,
+            0.23,
+            0.57
+          ],
+          [
+            13,
+            0.006,
+            0.025,
+            0.26,
+            0.57
+          ],
+          [
+            13.5,
+            0.006,
+            0.025,
+            0.31,
+            0.57
+          ],
+          [
+            14,
+            0.006,
+            0.025,
+            0.4,
+            0.73
+          ],
+          [
+            14.5,
+            0.006,
+            0.025,
+            0.445,
+            0.71
+          ],
+          [
+            15,
+            0.006,
+            0.025,
+            0.52,
+            0.69
+          ],
+          [
+            15.75,
+            0.006,
+            0.025,
+            0.59,
+            0.7
+          ],
+          [
+            15.8125,
+            0.006,
+            0.025,
+            0.59,
+            0.7
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wan22-60065",
+    "backbone": "Wan2.2",
+    "case": "60065",
+    "category": "Spatial consistency",
+    "all_methods": false,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60065/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60065/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-60065-base.jpg",
+      "SMI": "assets/posters/wan22-60065-smi.jpg"
+    },
+    "duration": 16.0,
+    "fps": "24/1",
+    "annotations": []
+  },
+  {
+    "id": "wan22-60016",
+    "backbone": "Wan2.2",
+    "case": "60016",
+    "category": "Generation stability",
+    "all_methods": true,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60016/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60016/smi.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60016/framepack.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60016/deep-forcing.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60016/moc.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60016/vmem.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60016/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-60016-base.jpg",
+      "SMI": "assets/posters/wan22-60016-smi.jpg",
+      "FramePack": "assets/posters/wan22-60016-framepack.jpg",
+      "Deep Forcing": "assets/posters/wan22-60016-deep-forcing.jpg",
+      "MoC": "assets/posters/wan22-60016-moc.jpg",
+      "VMem": "assets/posters/wan22-60016-vmem.jpg",
+      "MemFlow": "assets/posters/wan22-60016-memflow.jpg"
+    },
+    "duration": 60.0,
+    "fps": "24/1",
+    "annotations": []
+  },
+  {
+    "id": "wan22-60003",
+    "backbone": "Wan2.2",
+    "case": "60003",
+    "category": "Generation stability",
+    "all_methods": false,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60003/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60003/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-60003-base.jpg",
+      "SMI": "assets/posters/wan22-60003-smi.jpg"
+    },
+    "annotations": [],
+    "duration": 60.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "wan22-60001",
+    "backbone": "Wan2.2",
+    "case": "60001",
+    "category": "Generation stability",
+    "all_methods": false,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60001/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60001/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-60001-base.jpg",
+      "SMI": "assets/posters/wan22-60001-smi.jpg"
+    },
+    "annotations": [],
+    "duration": 60.0,
+    "fps": "24/1"
+  },
+  {
+    "id": "wan22-60013",
+    "backbone": "Wan2.2",
+    "case": "60013",
+    "category": "Generation stability",
+    "all_methods": false,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60013/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60013/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-60013-base.jpg",
+      "SMI": "assets/posters/wan22-60013-smi.jpg"
+    },
+    "annotations": [],
+    "duration": 60.0,
+    "fps": "24/1"
   }
 ]
