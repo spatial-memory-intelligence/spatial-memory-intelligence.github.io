@@ -13,14 +13,29 @@ SMI uses a multimodal large language model to coordinate four spatial-memory ope
 
 ## Release status
 
-This repository hosts the initial project website. The Code links point to the private SMI development repository and require repository access. Links to the paper, data, model weights, and video demonstrations will be added as resources become available.
+This repository hosts the project website and selected video demonstrations. The Code links point to the private SMI development repository and require repository access. Paper, data, and model-weight links will be added as resources become available.
+
+## Video demonstrations
+
+Four selected, full-duration examples use a shared playback timeline. SMI remains on the right, and the comparison method can be changed on the left.
+
+| Scene | Backbone | Case | Duration | Comparisons |
+| --- | --- | --- | --- | --- |
+| Wetland reflections | HY1.5 | 11 | 65.21 s | All seven methods |
+| A return to the garden | Wan2.2 | 91 | 15.81 s | All seven methods |
+| Revisiting the museum | HY1.5 | 5 | 45.21 s | Base and SMI |
+| Along the coast | HY1.5 | 108 | 65.21 s | Base and SMI |
+
+The seven methods are Base, FramePack, Deep Forcing, MoC, VMem, MemFlow, and SMI. These are selected qualitative examples, not the complete evaluation set. Every published video preserves its source video stream, frame count, resolution, frame rate, and full duration. MP4 metadata is moved to the beginning for web playback; the images are not re-encoded. Default playback is 1×, with optional 2× and 4× controls applied equally to both videos.
 
 ## Website
 
-The site is a static HTML/CSS page deployed with GitHub Pages from the root of `main`.
+The site is a static HTML/CSS/JavaScript page deployed with GitHub Pages from the root of `main`.
 
 - `index.html`: project content and resource links
 - `style.css`: responsive layout and styling
-- `assets/`: paper figures and favicon
+- `demo.js`: synchronized comparison player
+- `demo-data.json`: scene labels and media paths
+- `assets/`: paper figures, video streams, posters, and favicon
 
-To preview locally, serve this directory with any static HTTP server.
+To preview locally, serve this directory with a static HTTP server that supports byte-range requests for video seeking.

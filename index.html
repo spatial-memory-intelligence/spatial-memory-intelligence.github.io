@@ -13,11 +13,12 @@
   <meta property="og:image" content="https://spatial-memory-intelligence.github.io/assets/teaser.png">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="style.css">
+  <script src="demo.js" defer></script>
 </head>
 <body>
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="SMI home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>SMI<span class="wordmark-divider"></span><span class="wordmark-caption">Spatial Memory Intelligence</span></a>
-    <nav aria-label="Main navigation"><a href="#overview">Overview</a><a href="#method">Method</a><a href="#resources">Resources</a><a class="nav-github" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></nav>
+    <nav aria-label="Main navigation"><a href="#demos">Demos</a><a href="#overview">Overview</a><a href="#method">Method</a><a href="#resources">Resources</a><a class="nav-github" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main id="top">
     <section class="hero" aria-labelledby="project-title">
@@ -26,11 +27,29 @@
       <h1 id="project-title">Spatial Memory<br><span>Intelligence</span></h1>
       <p class="hero-subtitle">Endowing World Models with<br class="desktop-break"> Understanding-Driven Long-Term Memory</p>
       <p class="hero-description">A unified memory-management framework that helps video world models<br class="desktop-break"> organize the past, retrieve what matters, and keep generating consistently.</p>
-      <div class="hero-actions"><a class="button primary" href="#overview">Explore SMI <span aria-hidden="true">↓</span></a><a class="button secondary" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></div>
-      <div class="hero-note">Project page · Initial release</div>
+      <div class="hero-actions"><a class="button primary" href="#demos">Watch comparisons <span aria-hidden="true">▷</span></a><a class="button secondary" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-note">HY1.5 & Wan2.2 · Spatial consistency & generation stability</div>
+    </section>
+    <section class="section-wrap demos" id="demos" aria-labelledby="demos-title">
+      <div class="section-heading"><div><span class="section-kicker">01 / SEE IT IN MOTION</span><h2 id="demos-title">See memory in action.</h2></div><p>Choose a scene. Compare methods.<br>Watch both views in sync.</p></div>
+      <div class="demo-intro"><p>Selected examples from the paper, shown as full trajectories.</p><span>4 scenes <i>·</i> 2 backbones <i>·</i> 7 methods</span></div>
+      <div class="scene-list" id="scene-list" role="group" aria-label="Choose a demo scene"></div>
+      <div class="comparison" id="comparison">
+        <div class="comparison-heading"><div><span class="demo-category" id="demo-category">Loading examples</span><h3 id="scene-title">Full-trajectory comparison</h3></div><span class="scene-meta" id="scene-meta"></span></div>
+        <div class="method-bar"><label for="method-select">Compare with <select id="method-select" disabled><option>Base</option></select></label><p id="coverage-note">Choose a method to compare with SMI.</p></div>
+        <div class="video-pair">
+          <figure class="video-pane"><figcaption><strong id="baseline-label">Base</strong><span id="baseline-backbone"></span></figcaption><video id="baseline-video" preload="none" muted playsinline aria-label="Comparison method video"></video><a class="open-video" id="baseline-open" target="_blank" rel="noopener">Open video ↗</a></figure>
+          <figure class="video-pane smi-pane"><figcaption><strong><span class="smi-dot" aria-hidden="true"></span>SMI <small>Ours</small></strong><span id="smi-backbone"></span></figcaption><video id="smi-video" preload="none" muted playsinline aria-label="SMI video"></video><a class="open-video" id="smi-open" target="_blank" rel="noopener">Open video ↗</a></figure>
+        </div>
+        <div class="playback-controls"><button type="button" id="play-pair" class="play-button" disabled>Play both</button><button type="button" id="restart-pair" class="restart-button" disabled aria-label="Restart both videos">↺</button><label for="timeline" class="sr-only">Video timeline</label><input id="timeline" type="range" min="0" max="100" step="0.01" value="0" disabled><output id="time-display" for="timeline">0:00 / 0:00</output><label class="speed-label" for="playback-speed"><span class="sr-only">Playback speed</span><select id="playback-speed"><option value="1">1× speed</option><option value="2">2× speed</option><option value="4">4× speed</option></select></label><button type="button" class="expand-button" id="expand-pair" aria-label="Expand video comparison">⛶</button></div>
+        <div class="demo-caption"><p id="scene-description"></p><span id="playback-status" role="status">Loading scene list…</span></div>
+        <div class="demo-footnote"><span id="paper-location"></span><span>Full duration · Original resolution · Shared playback controls</span></div>
+      </div>
+      <p class="selection-note">The wetland and garden scenes include all seven methods. The museum and coast scenes show Base–SMI comparisons from the teaser.</p>
+      <noscript><p>Enable JavaScript to use the synchronized comparison player. <a href="assets/videos/hy15-11/smi.mp4">Watch the wetland SMI video directly.</a></p></noscript>
     </section>
     <section class="overview section-wrap" id="overview" aria-labelledby="overview-title">
-      <div class="section-heading"><div><span class="section-kicker">01 / THE BIG PICTURE</span><h2 id="overview-title">Better memory. More consistent worlds.</h2></div><p>From redundant visual histories<br>to useful spatial memories.</p></div>
+      <div class="section-heading"><div><span class="section-kicker">02 / THE BIG PICTURE</span><h2 id="overview-title">Better memory. More consistent worlds.</h2></div><p>From redundant visual histories<br>to useful spatial memories.</p></div>
       <figure class="figure-panel"><a href="assets/teaser.png" target="_blank" rel="noopener" aria-label="Open SMI overview figure at full resolution"><img src="assets/teaser.png" width="2640" height="1369" alt="Comparison of existing memory-management methods and SMI, illustrating memory sparsification, spatial consistency, and generation stability."></a><figcaption><span>SMI at a glance</span> Understanding-driven memory management connects spatial organization with action-aware retrieval. <a href="assets/teaser.pdf" target="_blank" rel="noopener">View PDF ↗</a></figcaption></figure>
       <div class="benefits">
         <div class="benefit"><span class="benefit-index">LESS REDUNDANCY</span><strong class="metric">83.68<span>%</span></strong><h3>Memory sparsification</h3><p>Reported sparsification rate in the paper’s teaser example.</p></div>
@@ -40,7 +59,7 @@
     </section>
     <section class="abstract-band" aria-labelledby="abstract-title"><div class="abstract-inner"><div><span class="section-kicker">THE IDEA</span><h2 id="abstract-title">Memory management,<br>with understanding.</h2></div><div class="abstract-copy"><p>Video world models generate future observations from user actions and historical memory. As those histories grow, the challenge is no longer just how much to store, but how to organize, select, and maintain useful spatial context.</p><p><strong>Spatial Memory Intelligence (SMI)</strong> uses a multimodal large language model as a spatial-memory manager. Four coordinated atomic operations bring semantic and spatial reasoning into the memory-management pipeline, supporting improvements in memory sparsity, spatial consistency, and generation stability across multiple world-model backbones.</p></div></div></section>
     <section class="section-wrap method" id="method" aria-labelledby="method-title">
-      <div class="section-heading"><div><span class="section-kicker">02 / THE FRAMEWORK</span><h2 id="method-title">Four operations. One memory manager.</h2></div><p>Organize, consolidate, retrieve,<br>and maintain spatial memory.</p></div>
+      <div class="section-heading"><div><span class="section-kicker">03 / THE FRAMEWORK</span><h2 id="method-title">Four operations. One memory manager.</h2></div><p>Organize, consolidate, retrieve,<br>and maintain spatial memory.</p></div>
       <figure class="figure-panel framework"><a href="assets/framework.png" target="_blank" rel="noopener" aria-label="Open SMI framework figure at full resolution"><img src="assets/framework.png" width="2399" height="1305" loading="lazy" alt="SMI architecture: an understanding model coordinates spatial clustering, within-cluster sparsification, action-aware retrieval, and reliability-aware filtering around persistent spatial memory."></a><figcaption><span>The SMI framework</span> An understanding model coordinates memory updates and retrieval for a video world model. <a href="assets/framework.pdf" target="_blank" rel="noopener">View PDF ↗</a></figcaption></figure>
       <div class="operations">
         <article class="operation clustering"><div class="operation-top"><span>01</span><span>ORGANIZE</span></div><h3>Spatial<br>clustering</h3><p>Group spatially related observations into coherent memory clusters.</p></article>
@@ -50,12 +69,12 @@
       </div>
     </section>
     <section class="section-wrap resources" id="resources" aria-labelledby="resources-title">
-      <div class="section-heading"><div><span class="section-kicker">03 / EXPLORE FURTHER</span><h2 id="resources-title">Resources & demonstrations</h2></div><p>This page will grow with<br>the project’s public release.</p></div>
+      <div class="section-heading"><div><span class="section-kicker">04 / EXPLORE FURTHER</span><h2 id="resources-title">Resources</h2></div><p>This page will grow with<br>the project’s public release.</p></div>
       <div class="resource-list">
         <a class="resource-row available" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer"><span class="resource-number">01</span><div><h3>Code repository</h3><p>Private development repository. GitHub access is required.</p></div><span class="resource-status">Code · Private <span aria-hidden="true">↗</span></span></a>
         <div class="resource-row"><span class="resource-number">02</span><div><h3>Paper</h3><p>The paper link will be added here.</p></div><span class="status-pill">Coming soon</span></div>
         <div class="resource-row"><span class="resource-number">03</span><div><h3>Data & model weights</h3><p>Resources for training and reproduction.</p></div><span class="status-pill">Coming soon</span></div>
-        <div class="resource-row"><span class="resource-number">04</span><div><h3>Video demonstrations</h3><p>Long-horizon generation, revisits, and method comparisons.</p></div><span class="status-pill">Coming soon</span></div>
+        <a class="resource-row available" href="#demos"><span class="resource-number">04</span><div><h3>Video demonstrations</h3><p>Explore four full trajectories with synchronized method comparisons.</p></div><span class="resource-status">Watch demos ↑</span></a>
       </div>
     </section>
   </main>

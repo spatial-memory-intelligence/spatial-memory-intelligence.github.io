@@ -1,0 +1,102 @@
+[
+  {
+    "id": "hy15-11",
+    "backbone": "HY1.5",
+    "case": "11",
+    "title": "Wetland reflections",
+    "category": "Generation stability",
+    "description": "Follow the tree silhouettes, water reflections, and distant landscape throughout the full trajectory.",
+    "paper": "Appendix · HY1.5 qualitative comparison",
+    "all_methods": true,
+    "methods": {
+      "Base": "assets/videos/hy15-11/base.mp4",
+      "SMI": "assets/videos/hy15-11/smi.mp4",
+      "FramePack": "assets/videos/hy15-11/framepack.mp4",
+      "Deep Forcing": "assets/videos/hy15-11/deep-forcing.mp4",
+      "MoC": "assets/videos/hy15-11/moc.mp4",
+      "VMem": "assets/videos/hy15-11/vmem.mp4",
+      "MemFlow": "assets/videos/hy15-11/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-11-base.jpg",
+      "SMI": "assets/posters/hy15-11-smi.jpg",
+      "FramePack": "assets/posters/hy15-11-framepack.jpg",
+      "Deep Forcing": "assets/posters/hy15-11-deep-forcing.jpg",
+      "MoC": "assets/posters/hy15-11-moc.jpg",
+      "VMem": "assets/posters/hy15-11-vmem.jpg",
+      "MemFlow": "assets/posters/hy15-11-memflow.jpg"
+    },
+    "duration": 65.208333,
+    "fps": "24/1"
+  },
+  {
+    "id": "wan22-91",
+    "backbone": "Wan2.2",
+    "case": "91",
+    "title": "A return to the garden",
+    "category": "Spatial consistency",
+    "description": "Track the stone basin and garden layout as the camera turns away and returns.",
+    "paper": "Main paper · Wan2.2 qualitative comparison",
+    "all_methods": true,
+    "methods": {
+      "Base": "assets/videos/wan22-91/base.mp4",
+      "SMI": "assets/videos/wan22-91/smi.mp4",
+      "FramePack": "assets/videos/wan22-91/framepack.mp4",
+      "Deep Forcing": "assets/videos/wan22-91/deep-forcing.mp4",
+      "MoC": "assets/videos/wan22-91/moc.mp4",
+      "VMem": "assets/videos/wan22-91/vmem.mp4",
+      "MemFlow": "assets/videos/wan22-91/memflow.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/wan22-91-base.jpg",
+      "SMI": "assets/posters/wan22-91-smi.jpg",
+      "FramePack": "assets/posters/wan22-91-framepack.jpg",
+      "Deep Forcing": "assets/posters/wan22-91-deep-forcing.jpg",
+      "MoC": "assets/posters/wan22-91-moc.jpg",
+      "VMem": "assets/posters/wan22-91-vmem.jpg",
+      "MemFlow": "assets/posters/wan22-91-memflow.jpg"
+    },
+    "duration": 15.8125,
+    "fps": "16/1"
+  },
+  {
+    "id": "hy15-5",
+    "backbone": "HY1.5",
+    "case": "5",
+    "title": "Revisiting the museum",
+    "category": "Spatial consistency",
+    "description": "Watch the sculpture, fossil exhibit, and surrounding hall when the camera revisits the same region.",
+    "paper": "Teaser · spatial consistency example",
+    "all_methods": false,
+    "methods": {
+      "Base": "assets/videos/hy15-5/base.mp4",
+      "SMI": "assets/videos/hy15-5/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-5-base.jpg",
+      "SMI": "assets/posters/hy15-5-smi.jpg"
+    },
+    "duration": 45.208333,
+    "fps": "24/1"
+  },
+  {
+    "id": "hy15-108",
+    "backbone": "HY1.5",
+    "case": "108",
+    "title": "Along the coast",
+    "category": "Generation stability",
+    "description": "Compare the cottage, coastline, and foreground detail as generation continues beyond a minute.",
+    "paper": "Teaser · generation stability example",
+    "all_methods": false,
+    "methods": {
+      "Base": "assets/videos/hy15-108/base.mp4",
+      "SMI": "assets/videos/hy15-108/smi.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-108-base.jpg",
+      "SMI": "assets/posters/hy15-108-smi.jpg"
+    },
+    "duration": 65.208333,
+    "fps": "24/1"
+  }
+]
