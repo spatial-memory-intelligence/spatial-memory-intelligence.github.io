@@ -170,7 +170,7 @@
   document.getElementById('show-highlights').addEventListener('change', event => {
     document.getElementById('demos').classList.toggle('annotations-off', !event.target.checked);
   });
-  fetch('demo-data.json?v=20260929-trim30').then(r => { if (!r.ok) throw new Error('Manifest unavailable'); return r.json(); }).then(data => {
+  fetch('demo-data.json?v=20260929-order2').then(r => { if (!r.ok) throw new Error('Manifest unavailable'); return r.json(); }).then(data => {
     const template = document.getElementById('comparison-template');
     document.querySelectorAll('.comparison-grid').forEach(grid => {
       const scenes = data.filter(c => c.category.toLowerCase() === grid.dataset.category && c.backbone === grid.dataset.backbone);
