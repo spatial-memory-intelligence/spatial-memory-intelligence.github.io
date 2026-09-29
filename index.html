@@ -13,9 +13,9 @@
   <meta property="og:image" content="https://spatial-memory-intelligence.github.io/assets/teaser.png">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="style.css?v=20260929-wall16">
-  <link rel="stylesheet" href="cinema.css?v=20260929-resource-links">
+  <link rel="stylesheet" href="cinema.css?v=20260929-gallery20">
   <script src="hero.js?v=20260929-wall16" defer></script>
-  <script src="demo.js?v=20260929-building" defer></script>
+  <script src="demo.js?v=20260929-gallery20" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -25,8 +25,8 @@
   <main id="top">
     <section class="hero" aria-labelledby="project-title">
       <div class="hero-media" aria-hidden="true">
-        <picture class="hero-still"><source media="(max-width: 760px)" srcset="assets/hero/wall-mobile.jpg?v=20260929-seamless"><img src="assets/hero/wall-desktop.jpg?v=20260929-seamless" alt="" fetchpriority="high"></picture>
-        <video id="hero-film" muted loop playsinline preload="none" tabindex="-1" data-desktop="assets/hero/wall-desktop.mp4?v=20260929-seamless" data-mobile="assets/hero/wall-mobile.mp4?v=20260929-seamless"></video>
+        <picture class="hero-still"><source media="(max-width: 760px)" srcset="assets/hero/wall-mobile.jpg?v=20260929-gallery20"><img src="assets/hero/wall-desktop.jpg?v=20260929-gallery20" alt="" fetchpriority="high"></picture>
+        <video id="hero-film" muted loop playsinline preload="none" tabindex="-1" data-desktop="assets/hero/wall-desktop.mp4?v=20260929-gallery20" data-mobile="assets/hero/wall-mobile.mp4?v=20260929-gallery20"></video>
       </div>
       <div class="hero-content">
         <p class="eyebrow">SMI / VIDEO WORLD MODELS</p>
@@ -78,29 +78,17 @@
     </section>
     <section class="section-wrap demos" id="demos" aria-labelledby="demos-title">
       <div class="section-heading"><div><span class="section-kicker">03 / VIDEO COMPARISONS</span><h2 id="demos-title">Video comparisons</h2></div><p>Side-by-side, in sync.</p></div>
-      <div class="demo-jump"><a href="#consistency">HY1.5 · Consistency</a><a href="#stability">HY1.5 · Stability</a><a href="#wan-consistency">Wan2.2 · Consistency</a><a href="#wan-stability">Wan2.2 · Stability</a></div>
+      <div class="demo-jump"><a href="#hy15-demos">HY1.5</a><a href="#wan22-demos">Wan2.2</a></div>
       <div class="highlight-guide"><label><input type="checkbox" id="show-highlights" checked> Show red-box highlights</label><span>Red boxes follow visible inconsistencies in each selected method.</span></div>
-      <section class="backbone-group" aria-labelledby="hy15-demos-title">
-        <div class="backbone-heading"><h3 id="hy15-demos-title">HY1.5</h3><span>Video comparisons</span></div>
-        <section class="demo-collection" id="consistency" aria-labelledby="consistency-title">
-          <div class="collection-heading"><h4 id="consistency-title">Spatial Consistency</h4><span data-role="group-count"></span></div>
-          <div class="comparison-grid" data-backbone="HY1.5" data-category="spatial consistency"></div>
-        </section>
-        <section class="demo-collection" id="stability" aria-labelledby="stability-title">
-          <div class="collection-heading"><h4 id="stability-title">Generation Stability</h4><span data-role="group-count"></span></div>
-          <div class="comparison-grid" data-backbone="HY1.5" data-category="generation stability"></div>
-        </section>
+      <section class="backbone-group" id="hy15-demos" aria-labelledby="hy15-demos-title">
+        <span id="consistency" class="gallery-anchor" aria-hidden="true"></span><span id="stability" class="gallery-anchor" aria-hidden="true"></span>
+        <div class="backbone-heading"><h3 id="hy15-demos-title">HY1.5</h3><span data-role="group-count"></span></div>
+        <div class="comparison-grid" data-backbone="HY1.5"></div>
       </section>
-      <section class="backbone-group" aria-labelledby="wan-demos-title">
-        <div class="backbone-heading"><h3 id="wan-demos-title">Wan2.2</h3><span>Video comparisons</span></div>
-        <section class="demo-collection" id="wan-consistency" aria-labelledby="wan-consistency-title">
-          <div class="collection-heading"><h4 id="wan-consistency-title">Spatial Consistency</h4><span data-role="group-count"></span></div>
-          <div class="comparison-grid" data-backbone="Wan2.2" data-category="spatial consistency"></div>
-        </section>
-        <section class="demo-collection" id="wan-stability" aria-labelledby="wan-stability-title">
-          <div class="collection-heading"><h4 id="wan-stability-title">Generation Stability</h4><span data-role="group-count"></span></div>
-          <div class="comparison-grid" data-backbone="Wan2.2" data-category="generation stability"></div>
-        </section>
+      <section class="backbone-group" id="wan22-demos" aria-labelledby="wan-demos-title">
+        <span id="wan-consistency" class="gallery-anchor" aria-hidden="true"></span><span id="wan-stability" class="gallery-anchor" aria-hidden="true"></span>
+        <div class="backbone-heading"><h3 id="wan-demos-title">Wan2.2</h3><span data-role="group-count"></span></div>
+        <div class="comparison-grid" data-backbone="Wan2.2"></div>
       </section>
       <p class="demo-load-status" role="status">Loading videos…</p>
       <noscript><p>Enable JavaScript to use the comparison gallery. <a href="https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/smi.mp4">Download an SMI video.</a></p></noscript>

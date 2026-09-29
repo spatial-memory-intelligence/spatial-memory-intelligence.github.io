@@ -1724,13 +1724,13 @@
     "category": "Spatial consistency",
     "all_methods": true,
     "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/base.mp4",
-      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/framepack.mp4",
-      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/deep-forcing.mp4",
-      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/moc.mp4",
-      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/vmem.mp4",
-      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/memflow.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/base-30s.mp4",
+      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/framepack-30s.mp4",
+      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/deep-forcing-30s.mp4",
+      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/moc-30s.mp4",
+      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/vmem-30s.mp4",
+      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/memflow-30s.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-62003/smi-30s.mp4"
     },
     "posters": {
       "Base": "assets/posters/hy15-62003-base.jpg",
@@ -1956,187 +1956,49 @@
             0.5454
           ],
           [
-            27.725,
-            0.6521,
-            0.2454,
-            0.9821,
-            0.5454
+            27.5,
+            0.63,
+            0.23,
+            0.997,
+            0.54
           ],
           [
-            27.975,
-            0.6512,
-            0.2457,
-            0.9812,
-            0.5457
+            28,
+            0.63,
+            0.24,
+            0.997,
+            0.54
           ],
           [
-            28.225,
-            0.6725,
-            0.2455,
-            0.9976,
-            0.5455
+            28.5,
+            0.65,
+            0.255,
+            0.997,
+            0.55
           ],
           [
-            28.475,
-            0.7085,
-            0.244,
-            0.9976,
-            0.544
+            29,
+            0.68,
+            0.24,
+            0.997,
+            0.535
           ],
           [
-            28.725,
-            0.7502,
-            0.2417,
-            0.9976,
-            0.5417
+            29.5,
+            0.705,
+            0.24,
+            0.997,
+            0.515
           ],
           [
-            28.975,
-            0.7947,
-            0.2393,
-            0.9976,
-            0.5393
+            30,
+            0.705,
+            0.245,
+            0.997,
+            0.535
           ]
-        ]
-      },
-      {
-        "method": "Base",
-        "reason": "The left hilltop clock-tower complex changes into separated towers with different silhouettes.",
-        "keys": [
-          [
-            33.017,
-            0.1007,
-            0.0102,
-            0.3257,
-            0.3052
-          ],
-          [
-            33.267,
-            0.1263,
-            0.0165,
-            0.3513,
-            0.3115
-          ],
-          [
-            33.517,
-            0.1253,
-            0.0164,
-            0.3503,
-            0.3114
-          ],
-          [
-            33.767,
-            0.1245,
-            0.016,
-            0.3495,
-            0.311
-          ],
-          [
-            34.017,
-            0.1239,
-            0.0159,
-            0.3489,
-            0.3109
-          ],
-          [
-            34.267,
-            0.1232,
-            0.0155,
-            0.3482,
-            0.3105
-          ],
-          [
-            34.517,
-            0.1226,
-            0.0154,
-            0.3476,
-            0.3104
-          ],
-          [
-            34.767,
-            0.1218,
-            0.0154,
-            0.3468,
-            0.3104
-          ],
-          [
-            35.017,
-            0.1212,
-            0.0152,
-            0.3462,
-            0.3102
-          ],
-          [
-            35.267,
-            0.1206,
-            0.0152,
-            0.3456,
-            0.3102
-          ],
-          [
-            35.517,
-            0.12,
-            0.015,
-            0.345,
-            0.31
-          ],
-          [
-            35.767,
-            0.1193,
-            0.0149,
-            0.3443,
-            0.3099
-          ],
-          [
-            36.017,
-            0.1182,
-            0.0148,
-            0.3432,
-            0.3098
-          ],
-          [
-            36.267,
-            0.1171,
-            0.015,
-            0.3421,
-            0.31
-          ],
-          [
-            36.517,
-            0.1159,
-            0.0152,
-            0.3409,
-            0.3102
-          ],
-          [
-            36.767,
-            0.0907,
-            0.0112,
-            0.3157,
-            0.3062
-          ],
-          [
-            37.017,
-            0.0585,
-            0.0052,
-            0.2835,
-            0.3002
-          ],
-          [
-            37.267,
-            0.0258,
-            0.0042,
-            0.2508,
-            0.2937
-          ],
-          [
-            37.517,
-            0.0024,
-            0.0042,
-            0.2159,
-            0.2868
-          ]
-        ]
+        ],
+        "focusTime": 29.5
       },
       {
         "method": "FramePack",
@@ -2396,423 +2258,6 @@
         ]
       },
       {
-        "method": "FramePack",
-        "reason": "New enlarged towers appear on the left and change the hilltop complex layout.",
-        "keys": [
-          [
-            33.017,
-            0.0184,
-            0.0208,
-            0.3034,
-            0.3458
-          ],
-          [
-            33.267,
-            0.0479,
-            0.0279,
-            0.3329,
-            0.3529
-          ],
-          [
-            33.517,
-            0.0468,
-            0.0277,
-            0.3318,
-            0.3527
-          ],
-          [
-            33.767,
-            0.0457,
-            0.0274,
-            0.3307,
-            0.3524
-          ],
-          [
-            34.017,
-            0.0448,
-            0.0272,
-            0.3298,
-            0.3522
-          ],
-          [
-            34.267,
-            0.0437,
-            0.0267,
-            0.3287,
-            0.3517
-          ],
-          [
-            34.517,
-            0.0427,
-            0.0264,
-            0.3277,
-            0.3514
-          ],
-          [
-            34.767,
-            0.0416,
-            0.0261,
-            0.3266,
-            0.3511
-          ],
-          [
-            35.017,
-            0.0405,
-            0.0256,
-            0.3255,
-            0.3506
-          ],
-          [
-            35.267,
-            0.0393,
-            0.0254,
-            0.3243,
-            0.3504
-          ],
-          [
-            35.517,
-            0.038,
-            0.025,
-            0.323,
-            0.35
-          ],
-          [
-            35.767,
-            0.0367,
-            0.0246,
-            0.3217,
-            0.3496
-          ],
-          [
-            36.017,
-            0.0349,
-            0.0248,
-            0.3199,
-            0.3498
-          ],
-          [
-            36.267,
-            0.0331,
-            0.0252,
-            0.3181,
-            0.3502
-          ],
-          [
-            36.517,
-            0.0311,
-            0.0255,
-            0.3161,
-            0.3505
-          ],
-          [
-            36.767,
-            0.0042,
-            0.021,
-            0.2892,
-            0.346
-          ],
-          [
-            37.017,
-            0.0024,
-            0.0142,
-            0.2544,
-            0.3392
-          ],
-          [
-            37.267,
-            0.0024,
-            0.007,
-            0.2214,
-            0.332
-          ],
-          [
-            37.517,
-            0.0024,
-            0.0042,
-            0.1869,
-            0.3242
-          ]
-        ]
-      },
-      {
-        "method": "MoC",
-        "reason": "The left clock-tower silhouette and its relationship to the foreground roof change.",
-        "keys": [
-          [
-            33.017,
-            0.12,
-            0.0089,
-            0.235,
-            0.2939
-          ],
-          [
-            33.267,
-            0.1514,
-            0.0163,
-            0.2664,
-            0.3013
-          ],
-          [
-            33.517,
-            0.1508,
-            0.0162,
-            0.2658,
-            0.3012
-          ],
-          [
-            33.767,
-            0.1501,
-            0.016,
-            0.2651,
-            0.301
-          ],
-          [
-            34.017,
-            0.1496,
-            0.0159,
-            0.2646,
-            0.3009
-          ],
-          [
-            34.267,
-            0.1488,
-            0.0155,
-            0.2638,
-            0.3005
-          ],
-          [
-            34.517,
-            0.1481,
-            0.0153,
-            0.2631,
-            0.3003
-          ],
-          [
-            34.767,
-            0.1474,
-            0.0153,
-            0.2624,
-            0.3003
-          ],
-          [
-            35.017,
-            0.1466,
-            0.0151,
-            0.2616,
-            0.3001
-          ],
-          [
-            35.267,
-            0.1459,
-            0.0151,
-            0.2609,
-            0.3001
-          ],
-          [
-            35.517,
-            0.145,
-            0.015,
-            0.26,
-            0.3
-          ],
-          [
-            35.767,
-            0.1441,
-            0.0149,
-            0.2591,
-            0.2999
-          ],
-          [
-            36.017,
-            0.1427,
-            0.0151,
-            0.2577,
-            0.3001
-          ],
-          [
-            36.267,
-            0.141,
-            0.0155,
-            0.256,
-            0.3005
-          ],
-          [
-            36.517,
-            0.1395,
-            0.0158,
-            0.2545,
-            0.3008
-          ],
-          [
-            36.767,
-            0.1069,
-            0.0103,
-            0.2219,
-            0.2953
-          ],
-          [
-            37.017,
-            0.0638,
-            0.0042,
-            0.1788,
-            0.2857
-          ],
-          [
-            37.267,
-            0.0186,
-            0.0042,
-            0.1336,
-            0.2762
-          ],
-          [
-            37.517,
-            0.0024,
-            0.0042,
-            0.0834,
-            0.2634
-          ]
-        ]
-      },
-      {
-        "method": "MemFlow",
-        "reason": "The left clock tower changes into a wider tiered tower near the foreground roof.",
-        "keys": [
-          [
-            33.017,
-            0.1101,
-            0.0152,
-            0.2301,
-            0.3552
-          ],
-          [
-            33.267,
-            0.1417,
-            0.0231,
-            0.2617,
-            0.3631
-          ],
-          [
-            33.517,
-            0.1398,
-            0.0225,
-            0.2598,
-            0.3625
-          ],
-          [
-            33.767,
-            0.1381,
-            0.0213,
-            0.2581,
-            0.3613
-          ],
-          [
-            34.017,
-            0.1364,
-            0.0208,
-            0.2564,
-            0.3608
-          ],
-          [
-            34.267,
-            0.1347,
-            0.0197,
-            0.2547,
-            0.3597
-          ],
-          [
-            34.517,
-            0.1329,
-            0.0188,
-            0.2529,
-            0.3588
-          ],
-          [
-            34.767,
-            0.1311,
-            0.0178,
-            0.2511,
-            0.3578
-          ],
-          [
-            35.017,
-            0.1292,
-            0.0166,
-            0.2492,
-            0.3566
-          ],
-          [
-            35.267,
-            0.1273,
-            0.0159,
-            0.2473,
-            0.3559
-          ],
-          [
-            35.517,
-            0.125,
-            0.015,
-            0.245,
-            0.355
-          ],
-          [
-            35.767,
-            0.1222,
-            0.0136,
-            0.2422,
-            0.3536
-          ],
-          [
-            36.017,
-            0.1187,
-            0.0134,
-            0.2387,
-            0.3534
-          ],
-          [
-            36.267,
-            0.1147,
-            0.0138,
-            0.2347,
-            0.3538
-          ],
-          [
-            36.517,
-            0.1105,
-            0.0141,
-            0.2305,
-            0.3541
-          ],
-          [
-            36.767,
-            0.0778,
-            0.008,
-            0.1978,
-            0.348
-          ],
-          [
-            37.017,
-            0.0353,
-            0.0042,
-            0.1553,
-            0.3385
-          ],
-          [
-            37.267,
-            0.0024,
-            0.0042,
-            0.1123,
-            0.3289
-          ],
-          [
-            37.517,
-            0.0024,
-            0.0042,
-            0.067,
-            0.3172
-          ]
-        ]
-      },
-      {
         "method": "Deep Forcing",
         "reason": "Canal-side buildings and sky break into floating fragments",
         "keys": [
@@ -2824,31 +2269,11 @@
             0.96
           ],
           [
-            34.0,
+            30,
             0.03,
             0.02,
             0.98,
             0.96
-          ]
-        ]
-      },
-      {
-        "method": "Deep Forcing",
-        "reason": "Floating fragments in the buildings and sky",
-        "keys": [
-          [
-            41.0,
-            0.03,
-            0.02,
-            0.98,
-            0.95
-          ],
-          [
-            44.99,
-            0.03,
-            0.02,
-            0.98,
-            0.95
           ]
         ]
       },
@@ -2864,7 +2289,7 @@
             0.99
           ],
           [
-            44.99,
+            30,
             0.1,
             0.64,
             0.98,
@@ -2874,8 +2299,13 @@
       }
     ],
     "paper": "附录 HY1.5 第4张对比图 (a)",
-    "duration": 45.0,
-    "fps": "24/1"
+    "duration": 30.0,
+    "fps": "24/1",
+    "excerpt": {
+      "start": 0,
+      "end": 30,
+      "original_duration": 45.0
+    }
   },
   {
     "id": "hy15-5",
@@ -5540,276 +4970,6 @@
     ]
   },
   {
-    "id": "hy15-25",
-    "backbone": "HY1.5",
-    "case": "25",
-    "category": "Generation stability",
-    "all_methods": true,
-    "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/base.mp4",
-      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/framepack.mp4",
-      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/deep-forcing.mp4",
-      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/moc.mp4",
-      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/vmem.mp4",
-      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/memflow.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-25/smi.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/hy15-25-base.jpg",
-      "FramePack": "assets/posters/hy15-25-framepack.jpg",
-      "Deep Forcing": "assets/posters/hy15-25-deep-forcing.jpg",
-      "MoC": "assets/posters/hy15-25-moc.jpg",
-      "VMem": "assets/posters/hy15-25-vmem.jpg",
-      "MemFlow": "assets/posters/hy15-25-memflow.jpg",
-      "SMI": "assets/posters/hy15-25-smi.jpg"
-    },
-    "annotations": [
-      {
-        "method": "Base",
-        "reason": "Sea and railing break into repeated floating geometric patches",
-        "keys": [
-          [
-            36.0,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ],
-          [
-            65.2,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ]
-        ]
-      },
-      {
-        "method": "Base",
-        "reason": "Sky develops repeated cellular artifacts",
-        "keys": [
-          [
-            46.0,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ],
-          [
-            65.2,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ]
-        ]
-      },
-      {
-        "method": "FramePack",
-        "reason": "Sea and railing break into repeated floating geometric patches",
-        "keys": [
-          [
-            34.0,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ],
-          [
-            65.2,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ]
-        ]
-      },
-      {
-        "method": "FramePack",
-        "reason": "Sky develops repeated cellular artifacts",
-        "keys": [
-          [
-            46.0,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ],
-          [
-            65.2,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ]
-        ]
-      },
-      {
-        "method": "Deep Forcing",
-        "reason": "Sea and railing break into repeated floating geometric patches",
-        "keys": [
-          [
-            18.0,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ],
-          [
-            65.2,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ]
-        ]
-      },
-      {
-        "method": "Deep Forcing",
-        "reason": "Sky develops repeated cellular artifacts",
-        "keys": [
-          [
-            26.0,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ],
-          [
-            65.2,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ]
-        ]
-      },
-      {
-        "method": "MoC",
-        "reason": "Sea and railing break into repeated floating geometric patches",
-        "keys": [
-          [
-            35.0,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ],
-          [
-            65.2,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ]
-        ]
-      },
-      {
-        "method": "MoC",
-        "reason": "Sky develops repeated cellular artifacts",
-        "keys": [
-          [
-            46.0,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ],
-          [
-            65.2,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ]
-        ]
-      },
-      {
-        "method": "VMem",
-        "reason": "Sea and railing break into repeated floating geometric patches",
-        "keys": [
-          [
-            34.0,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ],
-          [
-            65.2,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ]
-        ]
-      },
-      {
-        "method": "VMem",
-        "reason": "Sky develops repeated cellular artifacts",
-        "keys": [
-          [
-            46.0,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ],
-          [
-            65.2,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ]
-        ]
-      },
-      {
-        "method": "MemFlow",
-        "reason": "Sea and railing break into repeated floating geometric patches",
-        "keys": [
-          [
-            33.0,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ],
-          [
-            65.2,
-            0.32,
-            0.37,
-            0.99,
-            0.99
-          ]
-        ]
-      },
-      {
-        "method": "MemFlow",
-        "reason": "Sky develops repeated cellular artifacts",
-        "keys": [
-          [
-            46.0,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ],
-          [
-            65.2,
-            0.25,
-            0.01,
-            0.99,
-            0.33
-          ]
-        ]
-      }
-    ],
-    "paper": "正文 HY1.5 定性图 (b)",
-    "duration": 65.208333,
-    "fps": "24/1"
-  },
-  {
     "id": "hy15-11",
     "backbone": "HY1.5",
     "case": "11",
@@ -7016,701 +6176,6 @@
     ]
   },
   {
-    "id": "wan22-106",
-    "backbone": "Wan2.2",
-    "case": "106",
-    "category": "Spatial consistency",
-    "all_methods": true,
-    "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/base.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/smi.mp4",
-      "FramePack": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/framepack.mp4",
-      "Deep Forcing": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/deep-forcing.mp4",
-      "MoC": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/moc.mp4",
-      "VMem": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/vmem.mp4",
-      "MemFlow": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-106/memflow.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/wan22-106-base.jpg",
-      "SMI": "assets/posters/wan22-106-smi.jpg",
-      "FramePack": "assets/posters/wan22-106-framepack.jpg",
-      "Deep Forcing": "assets/posters/wan22-106-deep-forcing.jpg",
-      "MoC": "assets/posters/wan22-106-moc.jpg",
-      "VMem": "assets/posters/wan22-106-vmem.jpg",
-      "MemFlow": "assets/posters/wan22-106-memflow.jpg"
-    },
-    "duration": 15.8125,
-    "fps": "16/1",
-    "annotations": [
-      {
-        "method": "Base",
-        "reason": "Red distorted structures replace the original left-side geometry",
-        "keys": [
-          [
-            11.5,
-            0.006,
-            0.025,
-            0.14,
-            0.55
-          ],
-          [
-            12,
-            0.006,
-            0.025,
-            0.18,
-            0.57
-          ],
-          [
-            12.5,
-            0.006,
-            0.025,
-            0.23,
-            0.57
-          ],
-          [
-            13,
-            0.006,
-            0.025,
-            0.26,
-            0.57
-          ],
-          [
-            13.5,
-            0.006,
-            0.025,
-            0.31,
-            0.57
-          ],
-          [
-            14,
-            0.006,
-            0.025,
-            0.4,
-            0.73
-          ],
-          [
-            14.5,
-            0.006,
-            0.025,
-            0.445,
-            0.71
-          ],
-          [
-            15,
-            0.006,
-            0.025,
-            0.52,
-            0.69
-          ],
-          [
-            15.75,
-            0.006,
-            0.025,
-            0.59,
-            0.7
-          ],
-          [
-            15.8125,
-            0.006,
-            0.025,
-            0.59,
-            0.7
-          ]
-        ]
-      },
-      {
-        "method": "FramePack",
-        "reason": "Stone parapet replaced by red and white railings; altered paving and large right lantern.",
-        "keys": [
-          [
-            11.7,
-            0.0024,
-            0.481,
-            0.5843,
-            0.9958
-          ],
-          [
-            11.95,
-            0.0024,
-            0.4762,
-            0.6161,
-            0.9954
-          ],
-          [
-            12.2,
-            0.0024,
-            0.4766,
-            0.6454,
-            0.9958
-          ],
-          [
-            12.45,
-            0.0024,
-            0.4729,
-            0.6755,
-            0.9958
-          ],
-          [
-            12.7,
-            0.0024,
-            0.4604,
-            0.7103,
-            0.9958
-          ],
-          [
-            12.95,
-            0.0024,
-            0.4511,
-            0.7456,
-            0.9946
-          ],
-          [
-            13.2,
-            0.0024,
-            0.4524,
-            0.7753,
-            0.9958
-          ],
-          [
-            13.45,
-            0.0024,
-            0.4364,
-            0.8109,
-            0.9958
-          ],
-          [
-            13.7,
-            0.0024,
-            0.43,
-            0.8489,
-            0.9958
-          ],
-          [
-            13.95,
-            0.0024,
-            0.412,
-            0.8811,
-            0.9958
-          ],
-          [
-            14.2,
-            0.0024,
-            0.39,
-            0.9165,
-            0.98
-          ],
-          [
-            14.45,
-            0.015,
-            0.38,
-            0.97,
-            0.97
-          ],
-          [
-            14.7,
-            0.0583,
-            0.3786,
-            0.9976,
-            0.9686
-          ],
-          [
-            14.95,
-            0.1015,
-            0.3673,
-            0.9976,
-            0.9573
-          ],
-          [
-            15.2,
-            0.1357,
-            0.3634,
-            0.9976,
-            0.9534
-          ],
-          [
-            15.45,
-            0.1722,
-            0.3616,
-            0.9976,
-            0.9516
-          ]
-        ]
-      },
-      {
-        "method": "Deep Forcing",
-        "reason": "Broad replacement of foreground bridge geometry by raised, detached blocks and altered parapets.",
-        "keys": [
-          [
-            11.7,
-            0.0024,
-            0.5271,
-            0.4121,
-            0.9958
-          ],
-          [
-            11.95,
-            0.0024,
-            0.5238,
-            0.4569,
-            0.9958
-          ],
-          [
-            12.2,
-            0.0024,
-            0.5228,
-            0.5025,
-            0.9958
-          ],
-          [
-            12.45,
-            0.0024,
-            0.5177,
-            0.5547,
-            0.9958
-          ],
-          [
-            12.7,
-            0.0024,
-            0.5015,
-            0.6044,
-            0.9958
-          ],
-          [
-            12.95,
-            0.0024,
-            0.4896,
-            0.6487,
-            0.9958
-          ],
-          [
-            13.2,
-            0.0024,
-            0.4878,
-            0.701,
-            0.9958
-          ],
-          [
-            13.45,
-            0.0024,
-            0.4639,
-            0.751,
-            0.9958
-          ],
-          [
-            13.7,
-            0.0024,
-            0.4345,
-            0.805,
-            0.9958
-          ],
-          [
-            13.95,
-            0.0024,
-            0.4083,
-            0.8634,
-            0.9958
-          ],
-          [
-            14.2,
-            0.0024,
-            0.3924,
-            0.9125,
-            0.9924
-          ],
-          [
-            14.45,
-            0.02,
-            0.37,
-            0.98,
-            0.97
-          ],
-          [
-            14.7,
-            0.0789,
-            0.3581,
-            0.9976,
-            0.9581
-          ],
-          [
-            14.95,
-            0.1365,
-            0.3412,
-            0.9976,
-            0.9412
-          ],
-          [
-            15.2,
-            0.1904,
-            0.3314,
-            0.9976,
-            0.9314
-          ],
-          [
-            15.45,
-            0.2467,
-            0.3177,
-            0.9976,
-            0.9177
-          ]
-        ]
-      },
-      {
-        "method": "MoC",
-        "reason": "New left building, changed bridge surface and fragmented parapets across the scene.",
-        "keys": [
-          [
-            11.7,
-            0.0024,
-            0.2022,
-            0.5033,
-            0.987
-          ],
-          [
-            11.95,
-            0.0024,
-            0.2003,
-            0.5449,
-            0.9852
-          ],
-          [
-            12.2,
-            0.0024,
-            0.211,
-            0.5867,
-            0.9958
-          ],
-          [
-            12.45,
-            0.0024,
-            0.203,
-            0.6364,
-            0.9958
-          ],
-          [
-            12.7,
-            0.0024,
-            0.1854,
-            0.6784,
-            0.9958
-          ],
-          [
-            12.95,
-            0.0024,
-            0.175,
-            0.7234,
-            0.9958
-          ],
-          [
-            13.2,
-            0.0024,
-            0.17,
-            0.7661,
-            0.9958
-          ],
-          [
-            13.45,
-            0.0024,
-            0.1552,
-            0.8082,
-            0.9952
-          ],
-          [
-            13.7,
-            0.0024,
-            0.1508,
-            0.8498,
-            0.9908
-          ],
-          [
-            13.95,
-            0.0024,
-            0.1445,
-            0.8954,
-            0.9845
-          ],
-          [
-            14.2,
-            0.0024,
-            0.1367,
-            0.9342,
-            0.9767
-          ],
-          [
-            14.45,
-            0.015,
-            0.13,
-            0.98,
-            0.97
-          ],
-          [
-            14.7,
-            0.0532,
-            0.1337,
-            0.9976,
-            0.9737
-          ],
-          [
-            14.95,
-            0.0921,
-            0.1242,
-            0.9976,
-            0.9642
-          ],
-          [
-            15.2,
-            0.1321,
-            0.118,
-            0.9976,
-            0.958
-          ],
-          [
-            15.45,
-            0.1758,
-            0.12,
-            0.9976,
-            0.96
-          ]
-        ]
-      },
-      {
-        "method": "VMem",
-        "reason": "Large disordered foreground stone blocks replace the original bridge surface.",
-        "keys": [
-          [
-            11.7,
-            0.0024,
-            0.6116,
-            0.1201,
-            0.9957
-          ],
-          [
-            11.95,
-            0.0024,
-            0.6073,
-            0.1556,
-            0.9914
-          ],
-          [
-            12.2,
-            0.0024,
-            0.6118,
-            0.1974,
-            0.9958
-          ],
-          [
-            12.45,
-            0.0024,
-            0.6115,
-            0.2418,
-            0.9958
-          ],
-          [
-            12.7,
-            0.0024,
-            0.598,
-            0.2869,
-            0.9958
-          ],
-          [
-            12.95,
-            0.0024,
-            0.583,
-            0.3338,
-            0.9958
-          ],
-          [
-            13.2,
-            0.0024,
-            0.58,
-            0.3853,
-            0.9958
-          ],
-          [
-            13.45,
-            0.0024,
-            0.5602,
-            0.4328,
-            0.9958
-          ],
-          [
-            13.7,
-            0.0024,
-            0.5415,
-            0.4898,
-            0.9958
-          ],
-          [
-            13.95,
-            0.0024,
-            0.523,
-            0.5565,
-            0.9958
-          ],
-          [
-            14.2,
-            0.0024,
-            0.5074,
-            0.6118,
-            0.9958
-          ],
-          [
-            14.45,
-            0.015,
-            0.49,
-            0.68,
-            0.98
-          ],
-          [
-            14.7,
-            0.0747,
-            0.4807,
-            0.7397,
-            0.9707
-          ],
-          [
-            14.95,
-            0.1339,
-            0.468,
-            0.7989,
-            0.958
-          ],
-          [
-            15.2,
-            0.1901,
-            0.4574,
-            0.8551,
-            0.9474
-          ],
-          [
-            15.45,
-            0.2546,
-            0.4488,
-            0.9196,
-            0.9388
-          ]
-        ]
-      },
-      {
-        "method": "MemFlow",
-        "reason": "Broad changes to bridge paving, parapets and surrounding structures.",
-        "keys": [
-          [
-            11.7,
-            0.0024,
-            0.5209,
-            0.3551,
-            0.9958
-          ],
-          [
-            11.95,
-            0.0024,
-            0.5125,
-            0.4173,
-            0.9958
-          ],
-          [
-            12.2,
-            0.0024,
-            0.512,
-            0.4799,
-            0.9958
-          ],
-          [
-            12.45,
-            0.0024,
-            0.4855,
-            0.5408,
-            0.9958
-          ],
-          [
-            12.7,
-            0.0024,
-            0.4517,
-            0.597,
-            0.9958
-          ],
-          [
-            12.95,
-            0.0024,
-            0.4347,
-            0.6549,
-            0.9958
-          ],
-          [
-            13.2,
-            0.0024,
-            0.4226,
-            0.7087,
-            0.9958
-          ],
-          [
-            13.45,
-            0.0024,
-            0.3857,
-            0.7592,
-            0.9958
-          ],
-          [
-            13.7,
-            0.0024,
-            0.3589,
-            0.8117,
-            0.9958
-          ],
-          [
-            13.95,
-            0.0024,
-            0.3226,
-            0.8687,
-            0.9958
-          ],
-          [
-            14.2,
-            0.0024,
-            0.2984,
-            0.9201,
-            0.9958
-          ],
-          [
-            14.45,
-            0.015,
-            0.28,
-            0.98,
-            0.98
-          ],
-          [
-            14.7,
-            0.0732,
-            0.2639,
-            0.9976,
-            0.9639
-          ],
-          [
-            14.95,
-            0.135,
-            0.2449,
-            0.9976,
-            0.9449
-          ],
-          [
-            15.2,
-            0.1941,
-            0.2309,
-            0.9976,
-            0.9309
-          ],
-          [
-            15.45,
-            0.2554,
-            0.223,
-            0.9976,
-            0.923
-          ]
-        ]
-      }
-    ]
-  },
-  {
     "id": "wan22-60065",
     "backbone": "Wan2.2",
     "case": "60065",
@@ -7913,177 +6378,269 @@
     ]
   },
   {
-    "id": "wan22-60003",
+    "id": "wan22-60024",
     "backbone": "Wan2.2",
-    "case": "60003",
-    "category": "Generation stability",
+    "case": "60024",
+    "category": "Generation Stability",
     "all_methods": false,
     "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60003/base.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60003/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60024/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60024/smi.mp4"
     },
     "posters": {
-      "Base": "assets/posters/wan22-60003-base.jpg",
-      "SMI": "assets/posters/wan22-60003-smi.jpg"
+      "Base": "assets/posters/wan22-60024-base.jpg",
+      "SMI": "assets/posters/wan22-60024-smi.jpg"
     },
     "annotations": [
       {
         "method": "Base",
-        "reason": "Ground and architecture collapse into repeating texture",
+        "reason": "The paving breaks into repeated, distorted red patterns.",
         "keys": [
           [
-            46.0,
-            0.01,
-            0.03,
-            0.99,
-            0.99
+            34,
+            0.04,
+            0.64,
+            0.96,
+            0.985
           ],
           [
-            59.99,
-            0.01,
-            0.03,
-            0.99,
-            0.99
+            35,
+            0.05,
+            0.56,
+            0.98,
+            0.985
+          ],
+          [
+            36,
+            0.02,
+            0.57,
+            0.98,
+            0.985
+          ],
+          [
+            37,
+            0.02,
+            0.56,
+            0.94,
+            0.985
+          ],
+          [
+            38,
+            0.02,
+            0.56,
+            0.82,
+            0.985
+          ],
+          [
+            39,
+            0.02,
+            0.69,
+            0.57,
+            0.985
+          ],
+          [
+            40,
+            0.005,
+            0.77,
+            0.26,
+            0.995
+          ],
+          [
+            41,
+            0.005,
+            0.88,
+            0.18,
+            0.995
           ]
-        ]
+        ],
+        "focusTime": 36.5
       },
       {
-        "method": "SMI",
-        "reason": "Foreground paving and railings develop distorted repeated geometry",
+        "method": "Base",
+        "reason": "A red-and-white repeating texture replaces the ground surface.",
         "keys": [
           [
-            37.0,
-            0.02,
-            0.43,
-            0.98,
-            0.99
+            42,
+            0.005,
+            0.9,
+            0.45,
+            0.995
           ],
           [
-            59.99,
-            0.02,
-            0.43,
-            0.98,
-            0.99
+            43,
+            0.005,
+            0.85,
+            0.62,
+            0.995
+          ],
+          [
+            44,
+            0.005,
+            0.75,
+            0.84,
+            0.995
+          ],
+          [
+            45,
+            0.005,
+            0.77,
+            0.985,
+            0.995
+          ],
+          [
+            46,
+            0.005,
+            0.53,
+            0.985,
+            0.995
+          ],
+          [
+            47,
+            0.005,
+            0.28,
+            0.985,
+            0.995
+          ],
+          [
+            48,
+            0.005,
+            0.24,
+            0.985,
+            0.995
+          ],
+          [
+            49,
+            0.005,
+            0.24,
+            0.985,
+            0.995
+          ],
+          [
+            50,
+            0.005,
+            0.35,
+            0.985,
+            0.995
+          ],
+          [
+            51,
+            0.005,
+            0.35,
+            0.985,
+            0.995
+          ],
+          [
+            52,
+            0.005,
+            0.27,
+            0.985,
+            0.995
+          ],
+          [
+            53,
+            0.005,
+            0.24,
+            0.985,
+            0.995
+          ],
+          [
+            54,
+            0.005,
+            0.13,
+            0.985,
+            0.995
+          ],
+          [
+            56,
+            0.005,
+            0.12,
+            0.985,
+            0.995
+          ],
+          [
+            58,
+            0.005,
+            0.21,
+            0.985,
+            0.995
+          ],
+          [
+            60,
+            0.005,
+            0.26,
+            0.985,
+            0.995
           ]
-        ]
+        ],
+        "focusTime": 50
       }
     ],
     "duration": 60.0,
     "fps": "24/1"
   },
   {
-    "id": "wan22-60001",
+    "id": "wan22-60083",
     "backbone": "Wan2.2",
-    "case": "60001",
-    "category": "Generation stability",
+    "case": "60083",
+    "category": "Generation Stability",
     "all_methods": false,
     "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60001/base.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60001/smi.mp4"
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60083/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60083/smi.mp4"
     },
     "posters": {
-      "Base": "assets/posters/wan22-60001-base.jpg",
-      "SMI": "assets/posters/wan22-60001-smi.jpg"
+      "Base": "assets/posters/wan22-60083-base.jpg",
+      "SMI": "assets/posters/wan22-60083-smi.jpg"
     },
     "annotations": [
       {
         "method": "Base",
-        "reason": "Ground and surroundings collapse into dense colored patterns",
+        "reason": "Courtyard surfaces and structures develop repeated, distorted edges.",
         "keys": [
           [
-            17.0,
-            0.01,
-            0.02,
+            36,
+            0.1,
+            0.08,
+            0.98,
+            0.985
+          ],
+          [
+            40,
+            0.1,
+            0.04,
             0.99,
-            0.99
+            0.985
           ],
           [
-            59.99,
-            0.01,
-            0.02,
+            43.5,
+            0.1,
+            0.04,
             0.99,
-            0.99
+            0.985
           ]
-        ]
+        ],
+        "focusTime": 40
       },
-      {
-        "method": "SMI",
-        "reason": "Foreground railings and paving become fragmented",
-        "keys": [
-          [
-            23.0,
-            0.02,
-            0.29,
-            0.82,
-            0.99
-          ],
-          [
-            29.0,
-            0.02,
-            0.29,
-            0.82,
-            0.99
-          ]
-        ]
-      },
-      {
-        "method": "SMI",
-        "reason": "Ground and railing geometry fragments locally",
-        "keys": [
-          [
-            38.0,
-            0.05,
-            0.51,
-            0.94,
-            0.99
-          ],
-          [
-            44.0,
-            0.05,
-            0.51,
-            0.94,
-            0.99
-          ]
-        ]
-      }
-    ],
-    "duration": 60.0,
-    "fps": "24/1"
-  },
-  {
-    "id": "wan22-60013",
-    "backbone": "Wan2.2",
-    "case": "60013",
-    "category": "Generation stability",
-    "all_methods": false,
-    "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60013/base.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60013/smi.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/wan22-60013-base.jpg",
-      "SMI": "assets/posters/wan22-60013-smi.jpg"
-    },
-    "annotations": [
       {
         "method": "Base",
-        "reason": "Vegetation and ground collapse into densely repeated, discolored texture",
+        "reason": "The generated scene collapses into a full-frame grid of colored stripes.",
         "keys": [
           [
-            39.0,
-            0.01,
-            0.29,
-            0.99,
-            0.99
+            44,
+            0.008,
+            0.012,
+            0.992,
+            0.988
           ],
           [
-            59.99,
-            0.01,
-            0.29,
-            0.99,
-            0.99
+            60,
+            0.008,
+            0.012,
+            0.992,
+            0.988
           ]
-        ]
+        ],
+        "focusTime": 50
       }
     ],
     "duration": 60.0,

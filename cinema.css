@@ -63,6 +63,8 @@ h2 { font-size: clamp(30px,3.4vw,48px); letter-spacing: -.04em; }
 .demo-jump a { color: #cde1bf; }
 .backbone-heading { margin-top: 24px; border-bottom: 1px solid #718765; padding-bottom: 22px; }
 .backbone-heading h3 { font-size: 46px; font-weight: 600; }
+.backbone-group { position: relative; scroll-margin-top: 34px; }
+.gallery-anchor { position: absolute; top: 0; scroll-margin-top: 34px; }
 .collection-heading h4 { font-size: 26px; letter-spacing: -.025em; }
 .demo-collection { scroll-margin-top: 34px; }
 .comparison-grid { gap: 52px; }
