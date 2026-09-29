@@ -164,7 +164,6 @@
     const template = document.getElementById('comparison-template');
     document.querySelectorAll('.comparison-grid').forEach(grid => {
       const scenes = data.filter(c => c.backbone === grid.dataset.backbone);
-      grid.parentElement.querySelector('[data-role="group-count"]').textContent = `${scenes.length} comparisons`;
       scenes.forEach(scene => {
         const card = template.content.firstElementChild.cloneNode(true);
         card.dataset.media = scene.id;
