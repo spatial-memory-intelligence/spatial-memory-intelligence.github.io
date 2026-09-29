@@ -13,9 +13,9 @@
   <meta property="og:image" content="https://spatial-memory-intelligence.github.io/assets/teaser.png">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="style.css?v=20260929-wall16">
-  <link rel="stylesheet" href="cinema.css?v=20260929-gallery18">
-  <script src="hero.js?v=20260929-wall16" defer></script>
-  <script src="demo.js?v=20260929-gallery18" defer></script>
+  <link rel="stylesheet" href="cinema.css?v=20260929-gallery21">
+  <script src="hero.js?v=20260929-gallery21" defer></script>
+  <script src="demo.js?v=20260929-gallery21" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -25,8 +25,9 @@
   <main id="top">
     <section class="hero" aria-labelledby="project-title">
       <div class="hero-media" aria-hidden="true">
-        <picture class="hero-still"><source media="(max-width: 760px)" srcset="assets/hero/wall-mobile.jpg?v=20260929-gallery18"><img src="assets/hero/wall-desktop.jpg?v=20260929-gallery18" alt="" fetchpriority="high"></picture>
-        <video id="hero-film" muted loop playsinline preload="none" tabindex="-1" data-desktop="assets/hero/wall-desktop.mp4?v=20260929-gallery18" data-mobile="assets/hero/wall-mobile.mp4?v=20260929-gallery18"></video>
+        <picture class="hero-still"><source media="(max-width: 760px)" srcset="assets/hero/wall-mobile.jpg?v=20260929-gallery21"><img src="assets/hero/wall-desktop.jpg?v=20260929-gallery21" alt="" fetchpriority="high"></picture>
+        <video id="hero-film" muted loop playsinline preload="none" tabindex="-1" data-desktop="assets/hero/wall-desktop.mp4?v=20260929-gallery21" data-mobile="assets/hero/wall-mobile.mp4?v=20260929-gallery21"></video>
+        <canvas id="hero-grid" aria-hidden="true"></canvas>
       </div>
       <div class="hero-content">
         <p class="eyebrow">SMI / VIDEO WORLD MODELS</p>
@@ -79,7 +80,7 @@
     <section class="section-wrap demos" id="demos" aria-labelledby="demos-title">
       <div class="section-heading"><div><span class="section-kicker">03 / VIDEO COMPARISONS</span><h2 id="demos-title">Video comparisons</h2></div><p>Side-by-side, in sync.</p></div>
       <div class="demo-jump"><a href="#hy15-demos">HY1.5</a><a href="#wan22-demos">Wan2.2</a></div>
-      <div class="highlight-guide"><label><input type="checkbox" id="show-highlights" checked> Show red-box highlights</label><span>Red boxes follow visible inconsistencies in each selected method.</span></div>
+      <div class="highlight-guide"><label><input type="checkbox" id="show-highlights" checked> Show red-box highlights</label><span>Red boxes mark clear spatial inconsistencies, not visual breakdown.</span></div>
       <section class="backbone-group" id="hy15-demos" aria-labelledby="hy15-demos-title">
         <span id="consistency" class="gallery-anchor" aria-hidden="true"></span><span id="stability" class="gallery-anchor" aria-hidden="true"></span>
         <div class="backbone-heading"><h3 id="hy15-demos-title">HY1.5</h3><span data-role="group-count"></span></div>

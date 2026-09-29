@@ -11,6 +11,9 @@ nav a:hover::after { right: 0; }
 .hero-still, .hero-still img, .hero-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .hero-media video { opacity: 0; transition: opacity .6s; }
 .hero-media video.is-playing { opacity: 1; }
+.hero-media canvas { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; }
+.hero-media.canvas-ready canvas { opacity: 1; }
+.hero-media.canvas-ready video, .hero-media.canvas-ready .hero-still { opacity: 0; }
 .hero::after { background: linear-gradient(180deg,#06120f26 0%,#08130f4a 18%,#07100dc7 43%,#07100dae 64%,#08130f38 86%,#0c1411de 100%), radial-gradient(ellipse at center,transparent 35%,#06120f42 100%); }
 .hero-content { position: relative; max-width: 1840px; animation: cover-enter .9s both; }
 .eyebrow { display: inline-block; margin-bottom: 29px; font-size: 11px; letter-spacing: .32em; font-weight: 500; color: #e0ecde; text-shadow: 0 2px 14px #000; }
