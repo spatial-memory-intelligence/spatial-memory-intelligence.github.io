@@ -2,6 +2,16 @@
   'use strict';
   const methods = ['Base', 'FramePack', 'Deep Forcing', 'MoC', 'VMem', 'MemFlow'];
   const players = [];
+  const heroFilm = document.getElementById('hero-film');
+  const heroPause = document.querySelector('.hero-pause');
+  if (heroFilm && heroPause) {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduced) { heroFilm.autoplay = false; heroFilm.pause(); }
+    const updateHero = () => { heroPause.textContent = heroFilm.paused ? 'Play background' : 'Pause background'; heroPause.setAttribute('aria-label', heroPause.textContent + ' video'); };
+    heroFilm.addEventListener('play', updateHero); heroFilm.addEventListener('pause', updateHero);
+    heroPause.addEventListener('click', () => { if (heroFilm.paused) heroFilm.play().catch(updateHero); else heroFilm.pause(); });
+    updateHero();
+  }
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
   const caseName = c => c.backbone;
 
@@ -117,7 +127,7 @@
     $('restart-pair').addEventListener('click', () => { pause(); loadSources(); seek(0); status('Ready'); });
     $('method-select').addEventListener('change', () => loadPair(loaded ? right.currentTime : pendingTime, true));
     $('highlight-jump').addEventListener('click', () => {
-      const marks = activeTracks.map(track => track.keys[Math.min(1, track.keys.length - 1)][0]).sort((a,b) => a-b);
+      const marks = activeTracks.map(track => track.focusTime ?? (track.keys[0][0] + track.keys[track.keys.length - 1][0]) / 2).sort((a,b) => a-b);
       if (!marks.length) return;
       pause(); loadSources(); seek(marks[highlightIndex++ % marks.length]);
       const toggle = document.getElementById('show-highlights'); toggle.checked = true;
@@ -160,7 +170,7 @@
   document.getElementById('show-highlights').addEventListener('change', event => {
     document.getElementById('demos').classList.toggle('annotations-off', !event.target.checked);
   });
-  fetch('demo-data.json?v=20260929-paper-gallery').then(r => { if (!r.ok) throw new Error('Manifest unavailable'); return r.json(); }).then(data => {
+  fetch('demo-data.json?v=20260929-clean-gallery').then(r => { if (!r.ok) throw new Error('Manifest unavailable'); return r.json(); }).then(data => {
     const template = document.getElementById('comparison-template');
     document.querySelectorAll('.comparison-grid').forEach(grid => {
       const scenes = data.filter(c => c.category.toLowerCase() === grid.dataset.category && c.backbone === grid.dataset.backbone);
