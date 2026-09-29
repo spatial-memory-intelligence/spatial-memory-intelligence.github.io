@@ -6,6 +6,7 @@ nav a { position: relative; transition: color .2s; }
 nav a:not(.nav-github)::after { content: ''; position: absolute; left: 0; right: 100%; bottom: -7px; height: 1px; background: var(--mint); transition: right .2s; }
 nav a:hover::after { right: 0; }
 .nav-github { border-color: #8caa9270; border-radius: 4px; }
+.nav-pending { color: #bac6b6; font-size: 11px; cursor: default; }
 .hero { height: 56.25vw; min-height: 620px; max-height: calc(100svh - 68px); padding: 90px 3.5% 110px; background: var(--cinema); }
 .hero-media { inset: 0; background: #0c1411; }
 .hero-still, .hero-still img, .hero-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
