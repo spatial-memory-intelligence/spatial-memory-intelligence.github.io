@@ -17,13 +17,13 @@ This repository hosts the project website and selected video demonstrations. The
 
 ## Video demonstrations
 
-Twenty curated examples are displayed after the method overview: fourteen HY1.5 comparisons and six Wan2.2 comparisons. Each backbone has one continuous gallery, bringing consistency and stability examples together. Each comparison occupies one row, with Base and SMI side by side. Scene names and dataset case numbers are omitted from the visible interface.
+Eighteen curated examples are displayed after the method overview: thirteen HY1.5 comparisons and five Wan2.2 comparisons. Each backbone has one continuous gallery, bringing consistency and stability examples together. Each comparison occupies one row, with Base and SMI side by side. Scene names and dataset case numbers are omitted from the visible interface.
 
 Every group has its own synchronized Base/SMI player, with SMI on the right. Eleven groups additionally support FramePack, Deep Forcing, MoC, VMem, and MemFlow through the comparison selector. Starting a group pauses all other groups. Videos load near the viewport and can be expanded for closer inspection.
 
 Selected groups include manually checked red-box highlights for visual inconsistencies. Boxes follow timestamped coordinates and disappear outside the annotated interval. The Highlights button jumps to a highlighted moment; the global checkbox toggles overlays. Annotations belong to a specific method and are cleared when switching to an unannotated method. These selected highlights are illustrative, not exhaustive error labels or quantitative evaluation. Original video pixels are unchanged.
 
-The seven methods are Base, FramePack, Deep Forcing, MoC, VMem, MemFlow, and SMI. These are selected qualitative examples, not the complete evaluation set. Full-length originals remain in the repository. The gallery includes explicitly labeled 0–30-second excerpts of hy15-61002 and hy15-62003, trimmed equally across all seven methods. The new Wan2.2 examples, wan22-60024 and wan22-60083, retain their complete 60-second sequences. Other comparison videos preserve their full duration. Hero mosaics are decorative excerpts rendered separately from the scientific comparisons. Default playback is 1×, with optional 2× and 4× controls applied equally to both videos.
+The seven methods are Base, FramePack, Deep Forcing, MoC, VMem, MemFlow, and SMI. These are selected qualitative examples, not the complete evaluation set. Full-length originals remain in the repository. The gallery includes explicitly labeled 0–30-second excerpts of hy15-61002 and hy15-62003, trimmed equally across all seven methods. The Wan2.2 example wan22-60024 retains its complete 60-second sequence. Other comparison videos preserve their full duration. Hero mosaics are decorative excerpts rendered separately from the scientific comparisons. Default playback is 1×, with optional 2× and 4× controls applied equally to both videos.
 
 ## Cover and visual treatment
 

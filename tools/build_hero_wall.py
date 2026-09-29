@@ -10,8 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'assets' / 'hero'
 CASES = [
-    'hy15-62003', 'hy15-69006', 'hy15-52', 'hy15-69002',
-    'wan22-60083', 'hy15-64004', 'hy15-61002', 'wan22-60016',
+    'hy15-62003', 'hy15-69006', 'hy15-38', 'hy15-69002',
+    'hy15-5', 'hy15-64004', 'hy15-61002', 'wan22-60016',
     'hy15-11', 'wan22-60024', 'hy15-62002', 'wan22-33',
     'hy15-108', 'hy15-62001', 'wan22-91', 'wan22-60065',
 ]

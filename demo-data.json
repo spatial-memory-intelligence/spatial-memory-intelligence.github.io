@@ -5333,45 +5333,6 @@
     ]
   },
   {
-    "id": "hy15-52",
-    "backbone": "HY1.5",
-    "case": "52",
-    "category": "Generation stability",
-    "all_methods": false,
-    "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-52/base.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-52/smi.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/hy15-52-base.jpg",
-      "SMI": "assets/posters/hy15-52-smi.jpg"
-    },
-    "duration": 65.208333,
-    "fps": "24/1",
-    "annotations": [
-      {
-        "method": "Base",
-        "reason": "Palm foliage and beach structures fragment into disconnected patches",
-        "keys": [
-          [
-            60.5,
-            0.6,
-            0.025,
-            0.995,
-            0.64
-          ],
-          [
-            65.2,
-            0.6,
-            0.025,
-            0.995,
-            0.64
-          ]
-        ]
-      }
-    ]
-  },
-  {
     "id": "wan22-91",
     "backbone": "Wan2.2",
     "case": "91",
@@ -6570,74 +6531,6 @@
             0.26,
             0.985,
             0.995
-          ]
-        ],
-        "focusTime": 50
-      }
-    ],
-    "duration": 60.0,
-    "fps": "24/1"
-  },
-  {
-    "id": "wan22-60083",
-    "backbone": "Wan2.2",
-    "case": "60083",
-    "category": "Generation Stability",
-    "all_methods": false,
-    "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60083/base.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-60083/smi.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/wan22-60083-base.jpg",
-      "SMI": "assets/posters/wan22-60083-smi.jpg"
-    },
-    "annotations": [
-      {
-        "method": "Base",
-        "reason": "Courtyard surfaces and structures develop repeated, distorted edges.",
-        "keys": [
-          [
-            36,
-            0.1,
-            0.08,
-            0.98,
-            0.985
-          ],
-          [
-            40,
-            0.1,
-            0.04,
-            0.99,
-            0.985
-          ],
-          [
-            43.5,
-            0.1,
-            0.04,
-            0.99,
-            0.985
-          ]
-        ],
-        "focusTime": 40
-      },
-      {
-        "method": "Base",
-        "reason": "The generated scene collapses into a full-frame grid of colored stripes.",
-        "keys": [
-          [
-            44,
-            0.008,
-            0.012,
-            0.992,
-            0.988
-          ],
-          [
-            60,
-            0.008,
-            0.012,
-            0.992,
-            0.988
           ]
         ],
         "focusTime": 50

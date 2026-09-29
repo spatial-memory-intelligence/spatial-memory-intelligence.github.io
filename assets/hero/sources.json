@@ -6,7 +6,7 @@
     "duration": 8,
     "fps": 24,
     "gap": 0,
-    "bytes": 12189843,
+    "bytes": 11937014,
     "tiles": [
       {
         "case": "hy15-62003",
@@ -23,9 +23,9 @@
         "end": 8
       },
       {
-        "case": "hy15-52",
+        "case": "hy15-38",
         "method": "SMI",
-        "source": "assets/videos/hy15-52/smi.mp4",
+        "source": "assets/videos/hy15-38/smi.mp4",
         "start": 0,
         "end": 8
       },
@@ -37,9 +37,9 @@
         "end": 8
       },
       {
-        "case": "wan22-60083",
+        "case": "hy15-5",
         "method": "SMI",
-        "source": "assets/videos/wan22-60083/smi.mp4",
+        "source": "assets/videos/hy15-5/smi.mp4",
         "start": 0,
         "end": 8
       },
@@ -129,7 +129,7 @@
     "duration": 8,
     "fps": 24,
     "gap": 0,
-    "bytes": 3877690,
+    "bytes": 3849232,
     "tiles": [
       {
         "case": "hy15-62003",
@@ -146,9 +146,9 @@
         "end": 8
       },
       {
-        "case": "hy15-52",
+        "case": "hy15-38",
         "method": "SMI",
-        "source": "assets/videos/hy15-52/smi.mp4",
+        "source": "assets/videos/hy15-38/smi.mp4",
         "start": 0,
         "end": 8
       },
@@ -160,9 +160,9 @@
         "end": 8
       },
       {
-        "case": "wan22-60083",
+        "case": "hy15-5",
         "method": "SMI",
-        "source": "assets/videos/wan22-60083/smi.mp4",
+        "source": "assets/videos/hy15-5/smi.mp4",
         "start": 0,
         "end": 8
       },
