@@ -3,5 +3,6 @@
 exclude:
   - assets/videos
   - README.md
+  - tools
   - Gemfile
   - Gemfile.lock

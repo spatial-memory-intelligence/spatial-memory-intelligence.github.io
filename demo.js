@@ -2,16 +2,6 @@
   'use strict';
   const methods = ['Base', 'FramePack', 'Deep Forcing', 'MoC', 'VMem', 'MemFlow'];
   const players = [];
-  const heroFilm = document.getElementById('hero-film');
-  const heroPause = document.querySelector('.hero-pause');
-  if (heroFilm && heroPause) {
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduced) { heroFilm.autoplay = false; heroFilm.pause(); }
-    const updateHero = () => { heroPause.textContent = heroFilm.paused ? 'Play background' : 'Pause background'; heroPause.setAttribute('aria-label', heroPause.textContent + ' video'); };
-    heroFilm.addEventListener('play', updateHero); heroFilm.addEventListener('pause', updateHero);
-    heroPause.addEventListener('click', () => { if (heroFilm.paused) heroFilm.play().catch(updateHero); else heroFilm.pause(); });
-    updateHero();
-  }
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
   const caseName = c => c.backbone;
 

@@ -1,0 +1,246 @@
+[
+  {
+    "file": "assets/hero/wall-desktop.mp4",
+    "columns": 4,
+    "rows": 4,
+    "duration": 8,
+    "fps": 24,
+    "bytes": 11770870,
+    "tiles": [
+      {
+        "case": "hy15-62003",
+        "method": "SMI",
+        "source": "assets/videos/hy15-62003/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-69006",
+        "method": "SMI",
+        "source": "assets/videos/hy15-69006/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-52",
+        "method": "SMI",
+        "source": "assets/videos/hy15-52/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-69002",
+        "method": "SMI",
+        "source": "assets/videos/hy15-69002/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-106",
+        "method": "SMI",
+        "source": "assets/videos/wan22-106/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-64004",
+        "method": "SMI",
+        "source": "assets/videos/hy15-64004/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-61002",
+        "method": "SMI",
+        "source": "assets/videos/hy15-61002/smi-30s.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-60016",
+        "method": "SMI",
+        "source": "assets/videos/wan22-60016/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-11",
+        "method": "SMI",
+        "source": "assets/videos/hy15-11/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-25",
+        "method": "SMI",
+        "source": "assets/videos/hy15-25/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-62002",
+        "method": "SMI",
+        "source": "assets/videos/hy15-62002/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-33",
+        "method": "SMI",
+        "source": "assets/videos/wan22-33/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-108",
+        "method": "SMI",
+        "source": "assets/videos/hy15-108/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-62001",
+        "method": "SMI",
+        "source": "assets/videos/hy15-62001/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-91",
+        "method": "SMI",
+        "source": "assets/videos/wan22-91/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-60065",
+        "method": "SMI",
+        "source": "assets/videos/wan22-60065/smi.mp4",
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "file": "assets/hero/wall-mobile.mp4",
+    "columns": 2,
+    "rows": 8,
+    "duration": 8,
+    "fps": 24,
+    "bytes": 3678037,
+    "tiles": [
+      {
+        "case": "hy15-62003",
+        "method": "SMI",
+        "source": "assets/videos/hy15-62003/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-69006",
+        "method": "SMI",
+        "source": "assets/videos/hy15-69006/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-52",
+        "method": "SMI",
+        "source": "assets/videos/hy15-52/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-69002",
+        "method": "SMI",
+        "source": "assets/videos/hy15-69002/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-106",
+        "method": "SMI",
+        "source": "assets/videos/wan22-106/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-64004",
+        "method": "SMI",
+        "source": "assets/videos/hy15-64004/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-61002",
+        "method": "SMI",
+        "source": "assets/videos/hy15-61002/smi-30s.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-60016",
+        "method": "SMI",
+        "source": "assets/videos/wan22-60016/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-11",
+        "method": "SMI",
+        "source": "assets/videos/hy15-11/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-25",
+        "method": "SMI",
+        "source": "assets/videos/hy15-25/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-62002",
+        "method": "SMI",
+        "source": "assets/videos/hy15-62002/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-33",
+        "method": "SMI",
+        "source": "assets/videos/wan22-33/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-108",
+        "method": "SMI",
+        "source": "assets/videos/hy15-108/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "hy15-62001",
+        "method": "SMI",
+        "source": "assets/videos/hy15-62001/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-91",
+        "method": "SMI",
+        "source": "assets/videos/wan22-91/smi.mp4",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "case": "wan22-60065",
+        "method": "SMI",
+        "source": "assets/videos/wan22-60065/smi.mp4",
+        "start": 0,
+        "end": 8
+      }
+    ]
+  }
+]

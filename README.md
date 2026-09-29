@@ -17,13 +17,19 @@ This repository hosts the project website and selected video demonstrations. The
 
 ## Video demonstrations
 
-Twenty-six full-duration examples are displayed after the method overview, including all twelve HY1.5 Base/SMI cases in the main-paper and appendix source manifest. HY1.5 and Wan2.2 have separate sections, each divided into Spatial Consistency and Generation Stability. HY1.5 has ten consistency and eight stability comparisons; Wan2.2 has four consistency and four stability comparisons. Desktop shows two comparison groups per row; mobile shows one. Scene names and dataset case numbers are omitted from the visible interface. Paper examples retain their complete intermediate frames, including visible generation artifacts.
+Twenty-three curated examples are displayed after the method overview. HY1.5 and Wan2.2 have separate sections, each divided into Spatial Consistency and Generation Stability. HY1.5 has nine consistency and six stability comparisons; Wan2.2 has four consistency and four stability comparisons. Each comparison occupies one row, with Base and SMI side by side. Scene names and dataset case numbers are omitted from the visible interface.
 
-Every group has its own synchronized Base/SMI player, with SMI on the right. Fourteen groups additionally support FramePack, Deep Forcing, MoC, VMem, and MemFlow through the comparison selector. Starting a group pauses all other groups. Videos load near the viewport and can be expanded for closer inspection.
+Every group has its own synchronized Base/SMI player, with SMI on the right. 13 groups additionally support FramePack, Deep Forcing, MoC, VMem, and MemFlow through the comparison selector. Starting a group pauses all other groups. Videos load near the viewport and can be expanded for closer inspection.
 
-Selected groups include manually checked red-box highlights for visual inconsistencies. Boxes follow timestamped coordinates and disappear outside the annotated interval. The outline button jumps to a highlighted moment; the global checkbox toggles overlays. Annotations belong to a specific method and are cleared when switching to an unannotated method. These selected highlights are illustrative, not exhaustive error labels or quantitative evaluation. Original video pixels are unchanged.
+Selected groups include manually checked red-box highlights for visual inconsistencies. Boxes follow timestamped coordinates and disappear outside the annotated interval. The Highlights button jumps to a highlighted moment; the global checkbox toggles overlays. Annotations belong to a specific method and are cleared when switching to an unannotated method. These selected highlights are illustrative, not exhaustive error labels or quantitative evaluation. Original video pixels are unchanged.
 
-The seven methods are Base, FramePack, Deep Forcing, MoC, VMem, MemFlow, and SMI. These are selected qualitative examples, not the complete evaluation set. Every published video preserves its source video stream, frame count, resolution, frame rate, and full duration. MP4 metadata is moved to the beginning for web playback; the images are not re-encoded. Default playback is 1×, with optional 2× and 4× controls applied equally to both videos.
+The seven methods are Base, FramePack, Deep Forcing, MoC, VMem, MemFlow, and SMI. These are selected qualitative examples, not the complete evaluation set. Full-length originals remain in the repository. The gallery includes an explicitly labeled 0–30-second excerpt of hy15-61002, trimmed equally across all seven methods. Other comparison videos preserve their full duration. Hero mosaics are decorative excerpts rendered separately from the scientific comparisons. Default playback is 1×, with optional 2× and 4× controls applied equally to both videos.
+
+## Cover and visual treatment
+
+The cover presents sixteen existing SMI sequences in a single animated mosaic, using a 4×4 desktop composition and a 2×8 mobile composition. `assets/hero/sources.json` records the source videos and excerpt boundaries (0–8 seconds). `tools/build_hero_wall.py` rebuilds both compositions using ffmpeg. The sixteen scenes share one video decoder; desktop and mobile request only their matching layout. An immediate image fallback, reduced-motion support, a pause control, and offscreen/background pausing keep the cover usable.
+
+The gallery uses a dark cinematic background with pale green SMI labels. Paper figures stay on white, readable panels. Ordering, selected methods, synchronized controls, and red-box annotations are independent of the cover.
 
 ## Website
 
@@ -31,6 +37,8 @@ The site is a static HTML/CSS/JavaScript page deployed with GitHub Pages from th
 
 - `index.html`: project content and resource links
 - `style.css`: responsive layout and styling
+- `cinema.css`: cinematic cover and gallery styling
+- `hero.js`: responsive cover media and motion preferences
 - `demo.js`: synchronized comparison player
 - `demo-data.json`: scene labels and media paths
 - `assets/`: paper figures, video streams, posters, and favicon

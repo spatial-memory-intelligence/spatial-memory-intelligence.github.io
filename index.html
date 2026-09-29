@@ -12,8 +12,10 @@
   <meta property="og:url" content="https://spatial-memory-intelligence.github.io/">
   <meta property="og:image" content="https://spatial-memory-intelligence.github.io/assets/teaser.png">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="style.css?v=20260929-order2">
-  <script src="demo.js?v=20260929-order2" defer></script>
+  <link rel="stylesheet" href="style.css?v=20260929-wall16">
+  <link rel="stylesheet" href="cinema.css?v=20260929-wall16">
+  <script src="hero.js?v=20260929-wall16" defer></script>
+  <script src="demo.js?v=20260929-wall16" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -22,14 +24,17 @@
   </header>
   <main id="top">
     <section class="hero" aria-labelledby="project-title">
-      <div class="hero-media" aria-hidden="true"><video id="hero-film" autoplay muted loop playsinline poster="assets/hero-poster.jpg" preload="metadata"><source src="assets/hero-film.mp4" type="video/mp4"></video></div>
+      <div class="hero-media" aria-hidden="true">
+        <picture class="hero-still"><source media="(max-width: 760px)" srcset="assets/hero/wall-mobile.jpg"><img src="assets/hero/wall-desktop.jpg" alt="" fetchpriority="high"></picture>
+        <video id="hero-film" muted loop playsinline preload="none" tabindex="-1" data-desktop="assets/hero/wall-desktop.mp4" data-mobile="assets/hero/wall-mobile.mp4"></video>
+      </div>
       <div class="hero-content">
         <p class="eyebrow">SMI / VIDEO WORLD MODELS</p>
         <h1 id="project-title">Spatial Memory Intelligence</h1>
         <p class="hero-subtitle">Endowing World Models with<br>Understanding-Driven Long-Term Memory</p>
         <div class="hero-actions"><a class="button primary" href="#method">Method</a><a class="button secondary" href="#demos">Video comparisons</a><a class="button secondary" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer">Code</a></div>
       </div>
-      <button type="button" class="hero-pause" aria-label="Pause background video">Pause background</button>
+      <div class="hero-bottom"><a class="hero-explore" href="#overview">Explore SMI<span aria-hidden="true"></span></a><span class="hero-media-note">16 worlds. One memory framework.</span><button type="button" class="hero-pause" aria-label="Play background video" aria-pressed="false" hidden>Play background</button></div>
     </section>
     <section class="overview section-wrap" id="overview" aria-labelledby="overview-title">
       <div class="section-heading"><div><span class="section-kicker">01 / THE BIG PICTURE</span><h2 id="overview-title">Spatial Memory Intelligence</h2></div><p>From redundant visual histories<br>to useful spatial memories.</p></div>
