@@ -27,7 +27,6 @@ nav a:hover::after { right: 0; }
 .hero-explore { display: inline-flex; align-items: center; gap: 14px; font-size: 12px; }
 .hero-explore span { width: 36px; height: 1px; background: #c4d5bd; transition: width .2s; }
 .hero-explore:hover span { width: 48px; }
-.hero-media-note { color: #c7d4c4; letter-spacing: .04em; }
 .hero-pause { position: static; color: #d1dccd; border-color: #abc0a4; font-size: 11px; }
 .section-wrap { max-width: 1320px; }
 .overview { padding-top: 96px; padding-bottom: 88px; }
@@ -85,7 +84,6 @@ footer { max-width: 1320px; }
 @media (max-width: 900px) {
   .demos { padding-left:26px; padding-right:26px; }
   .hero { min-height:560px; }
-  .hero-media-note { display:none; }
   .figure-panel { padding:14px 14px 0; }
   .operation h3 { font-size:20px; }
   .abstract-inner h2 { font-size:29px; }
