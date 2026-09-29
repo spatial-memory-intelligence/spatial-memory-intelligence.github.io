@@ -3484,7 +3484,22 @@
       "Base": "assets/posters/hy15-48-base.jpg",
       "SMI": "assets/posters/hy15-48-smi.jpg"
     },
-    "annotations": [],
+    "annotations": [
+      {
+        "method": "Base",
+        "reason": "User-selected cabinet region: local door-panel structure breaks up on revisiting.",
+        "focusTime": 21.5,
+        "keys": [
+          [18, 0.145, 0.015, 0.425, 0.985],
+          [19, 0.19, 0.015, 0.465, 0.985],
+          [20, 0.14, 0.015, 0.47, 0.985],
+          [21, 0.215, 0.015, 0.53, 0.985],
+          [22, 0.305, 0.015, 0.61, 0.985],
+          [23, 0.335, 0.015, 0.64, 0.985],
+          [24, 0.305, 0.015, 0.635, 0.985]
+        ]
+      }
+    ],
     "duration": 30,
     "fps": "24/1",
     "excerpt": {
