@@ -1266,7 +1266,7 @@
         ]
       }
     ],
-    "paper": "\u9644\u5f55 HY1.5 \u7b2c3\u5f20\u5bf9\u6bd4\u56fe (b)",
+    "paper": "附录 HY1.5 第3张对比图 (b)",
     "duration": 45.0,
     "fps": "24/1"
   },
@@ -1289,42 +1289,197 @@
     "annotations": [
       {
         "method": "Base",
-        "reason": "Additional matching person appears while the foreground person remains visible",
+        "reason": "The roofline, dormers, and upper-storey window layout of the right-hand building change when the camera revisits the square.",
+        "focusTime": 25.0,
         "keys": [
           [
+            23.0,
+            0.855,
+            0.008,
+            0.994,
+            0.46
+          ],
+          [
+            23.5,
+            0.766,
+            0.008,
+            0.994,
+            0.452
+          ],
+          [
+            24.0,
+            0.697,
+            0.008,
+            0.994,
+            0.45
+          ],
+          [
+            24.5,
+            0.632,
+            0.008,
+            0.994,
+            0.456
+          ],
+          [
+            25.0,
+            0.616,
+            0.008,
+            0.994,
+            0.462
+          ],
+          [
+            26.0,
+            0.627,
+            0.008,
+            0.994,
+            0.474
+          ],
+          [
+            27.0,
+            0.627,
+            0.008,
+            0.994,
+            0.461
+          ],
+          [
+            28.0,
+            0.628,
+            0.008,
+            0.994,
+            0.458
+          ],
+          [
+            29.0,
+            0.744,
+            0.008,
+            0.994,
+            0.448
+          ],
+          [
+            30.0,
+            0.919,
+            0.008,
+            0.994,
+            0.461
+          ],
+          [
+            30.2,
+            0.967,
+            0.008,
+            0.994,
+            0.462
+          ]
+        ]
+      },
+      {
+        "method": "Base",
+        "reason": "The roofline, dormers, and upper-storey window layout of the right-hand building change when the camera revisits the square.",
+        "focusTime": 44.5,
+        "keys": [
+          [
+            33.8,
+            0.909,
+            0.008,
+            0.994,
+            0.473
+          ],
+          [
+            34.0,
+            0.857,
+            0.008,
+            0.994,
+            0.47
+          ],
+          [
+            34.5,
+            0.766,
+            0.008,
+            0.994,
+            0.455
+          ],
+          [
+            35.0,
+            0.704,
+            0.008,
+            0.994,
+            0.449
+          ],
+          [
+            35.5,
+            0.656,
+            0.008,
+            0.994,
+            0.462
+          ],
+          [
+            36.0,
+            0.633,
+            0.008,
+            0.994,
+            0.47
+          ],
+          [
+            37.0,
+            0.633,
+            0.008,
+            0.994,
+            0.473
+          ],
+          [
             38.0,
-            0.535,
-            0.59,
-            0.58,
-            0.75
+            0.619,
+            0.008,
+            0.994,
+            0.473
           ],
           [
             39.0,
-            0.505,
-            0.6,
-            0.551,
-            0.79
+            0.616,
+            0.008,
+            0.994,
+            0.465
           ],
           [
             40.0,
-            0.53,
-            0.58,
-            0.573,
-            0.79
+            0.612,
+            0.008,
+            0.994,
+            0.461
           ],
           [
             41.0,
-            0.584,
-            0.585,
-            0.632,
-            0.8
+            0.616,
+            0.008,
+            0.994,
+            0.468
           ],
           [
             42.0,
-            0.649,
-            0.594,
-            0.7,
-            0.81
+            0.626,
+            0.008,
+            0.994,
+            0.471
+          ],
+          [
+            43.0,
+            0.628,
+            0.008,
+            0.994,
+            0.471
+          ],
+          [
+            44.0,
+            0.616,
+            0.008,
+            0.994,
+            0.462
+          ],
+          [
+            45.0,
+            0.6,
+            0.008,
+            0.994,
+            0.468
           ]
         ]
       }
@@ -1558,7 +1713,7 @@
         ]
       }
     ],
-    "paper": "\u6b63\u6587 HY1.5 \u5b9a\u6027\u56fe (a)",
+    "paper": "正文 HY1.5 定性图 (a)",
     "duration": 39.875,
     "fps": "24/1"
   },
@@ -2718,7 +2873,7 @@
         ]
       }
     ],
-    "paper": "\u9644\u5f55 HY1.5 \u7b2c4\u5f20\u5bf9\u6bd4\u56fe (a)",
+    "paper": "附录 HY1.5 第4张对比图 (a)",
     "duration": 45.0,
     "fps": "24/1"
   },
@@ -2727,7 +2882,7 @@
     "backbone": "HY1.5",
     "case": "5",
     "category": "Spatial consistency",
-    "paper": "Teaser \u00b7 spatial consistency example",
+    "paper": "Teaser · spatial consistency example",
     "all_methods": false,
     "methods": {
       "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-5/base.mp4",
@@ -3701,7 +3856,7 @@
         ]
       }
     ],
-    "paper": "\u9644\u5f55 HY1.5 \u7b2c2\u5f20\u5bf9\u6bd4\u56fe (b)",
+    "paper": "附录 HY1.5 第2张对比图 (b)",
     "duration": 30,
     "fps": "24/1",
     "excerpt": {
@@ -5184,7 +5339,7 @@
         ]
       }
     ],
-    "paper": "\u9644\u5f55 HY1.5 \u7b2c3\u5f20\u5bf9\u6bd4\u56fe (a)",
+    "paper": "附录 HY1.5 第3张对比图 (a)",
     "duration": 45.0,
     "fps": "24/1"
   },
@@ -5307,7 +5462,7 @@
     "backbone": "HY1.5",
     "case": "108",
     "category": "Generation stability",
-    "paper": "Teaser \u00b7 generation stability example",
+    "paper": "Teaser · generation stability example",
     "all_methods": false,
     "methods": {
       "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-108/base.mp4",
@@ -5650,7 +5805,7 @@
         ]
       }
     ],
-    "paper": "\u6b63\u6587 HY1.5 \u5b9a\u6027\u56fe (b)",
+    "paper": "正文 HY1.5 定性图 (b)",
     "duration": 65.208333,
     "fps": "24/1"
   },
@@ -5659,7 +5814,7 @@
     "backbone": "HY1.5",
     "case": "11",
     "category": "Generation stability",
-    "paper": "Appendix \u00b7 HY1.5 qualitative comparison",
+    "paper": "Appendix · HY1.5 qualitative comparison",
     "all_methods": true,
     "methods": {
       "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-11/base.mp4",
@@ -5953,7 +6108,7 @@
         ]
       }
     ],
-    "paper": "\u9644\u5f55 HY1.5 \u7b2c4\u5f20\u5bf9\u6bd4\u56fe (b)",
+    "paper": "附录 HY1.5 第4张对比图 (b)",
     "duration": 60.0,
     "fps": "24/1"
   },
@@ -6061,7 +6216,7 @@
     "backbone": "Wan2.2",
     "case": "91",
     "category": "Spatial consistency",
-    "paper": "Main paper \u00b7 Wan2.2 qualitative comparison",
+    "paper": "Main paper · Wan2.2 qualitative comparison",
     "all_methods": true,
     "methods": {
       "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-91/base.mp4",
@@ -6281,7 +6436,7 @@
     "backbone": "Wan2.2",
     "case": "33",
     "category": "Spatial consistency",
-    "paper": "Main paper \u00b7 Wan2.2 qualitative comparison",
+    "paper": "Main paper · Wan2.2 qualitative comparison",
     "all_methods": true,
     "methods": {
       "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/wan22-33/base.mp4",
