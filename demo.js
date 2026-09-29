@@ -108,7 +108,7 @@
     function selectCase(scene, eager = false) {
       selected = scene;
       $('scene-title').textContent = caseName(scene);
-      $('scene-meta').textContent = `${scene.duration.toFixed(1)} s`;
+      $('scene-meta').textContent = `${scene.duration.toFixed(1)} s${scene.excerpt ? ' · excerpt' : ''}`;
       $('baseline-backbone').textContent = scene.backbone; $('smi-backbone').textContent = scene.backbone;
       section.querySelector('.method-switch').hidden = !scene.all_methods;
       $('coverage-note').textContent = scene.all_methods ? 'Seven comparison methods available' : 'Base and SMI';
@@ -170,7 +170,7 @@
   document.getElementById('show-highlights').addEventListener('change', event => {
     document.getElementById('demos').classList.toggle('annotations-off', !event.target.checked);
   });
-  fetch('demo-data.json?v=20260929-clean-gallery').then(r => { if (!r.ok) throw new Error('Manifest unavailable'); return r.json(); }).then(data => {
+  fetch('demo-data.json?v=20260929-trim30').then(r => { if (!r.ok) throw new Error('Manifest unavailable'); return r.json(); }).then(data => {
     const template = document.getElementById('comparison-template');
     document.querySelectorAll('.comparison-grid').forEach(grid => {
       const scenes = data.filter(c => c.category.toLowerCase() === grid.dataset.category && c.backbone === grid.dataset.backbone);
