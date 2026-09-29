@@ -5,7 +5,8 @@
     "rows": 4,
     "duration": 8,
     "fps": 24,
-    "bytes": 11770870,
+    "gap": 0,
+    "bytes": 11814407,
     "tiles": [
       {
         "case": "hy15-62003",
@@ -127,7 +128,8 @@
     "rows": 8,
     "duration": 8,
     "fps": 24,
-    "bytes": 3678037,
+    "gap": 0,
+    "bytes": 3799925,
     "tiles": [
       {
         "case": "hy15-62003",

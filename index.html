@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://spatial-memory-intelligence.github.io/assets/teaser.png">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="style.css?v=20260929-wall16">
-  <link rel="stylesheet" href="cinema.css?v=20260929-wall16">
+  <link rel="stylesheet" href="cinema.css?v=20260929-authors">
   <script src="hero.js?v=20260929-wall16" defer></script>
   <script src="demo.js?v=20260929-building" defer></script>
 </head>
@@ -25,14 +25,39 @@
   <main id="top">
     <section class="hero" aria-labelledby="project-title">
       <div class="hero-media" aria-hidden="true">
-        <picture class="hero-still"><source media="(max-width: 760px)" srcset="assets/hero/wall-mobile.jpg"><img src="assets/hero/wall-desktop.jpg" alt="" fetchpriority="high"></picture>
-        <video id="hero-film" muted loop playsinline preload="none" tabindex="-1" data-desktop="assets/hero/wall-desktop.mp4" data-mobile="assets/hero/wall-mobile.mp4"></video>
+        <picture class="hero-still"><source media="(max-width: 760px)" srcset="assets/hero/wall-mobile.jpg?v=20260929-seamless"><img src="assets/hero/wall-desktop.jpg?v=20260929-seamless" alt="" fetchpriority="high"></picture>
+        <video id="hero-film" muted loop playsinline preload="none" tabindex="-1" data-desktop="assets/hero/wall-desktop.mp4?v=20260929-seamless" data-mobile="assets/hero/wall-mobile.mp4?v=20260929-seamless"></video>
       </div>
       <div class="hero-content">
         <p class="eyebrow">SMI / VIDEO WORLD MODELS</p>
         <h1 id="project-title">Spatial Memory Intelligence</h1>
-        <p class="hero-subtitle">Endowing World Models with<br>Understanding-Driven Long-Term Memory</p>
-        <div class="hero-actions"><a class="button primary" href="#method">Method</a><a class="button secondary" href="#demos">Video comparisons</a><a class="button secondary" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer">Code</a></div>
+        <p class="hero-subtitle">Endowing World Models with Understanding-Driven Long-Term Memory</p>
+        <div class="hero-byline">
+          <ul class="hero-authors" aria-label="Authors">
+            <li><a href="https://github.com/xbyym" target="_blank" rel="noopener noreferrer">Ying Yang</a><sup>1,*</sup></li>
+            <li><a href="https://grenoble-zhang.github.io/" target="_blank" rel="noopener noreferrer">Guiyu Zhang</a><sup>1,2,*</sup></li>
+            <li><a href="https://github.com/huanglianghua" target="_blank" rel="noopener noreferrer">Lianghua Huang</a><sup>2</sup></li>
+            <li><a href="https://github.com/Clare-Nie" target="_blank" rel="noopener noreferrer">Chang Nie</a><sup>3</sup></li>
+            <li><a href="https://chenyangsi.top/" target="_blank" rel="noopener noreferrer">Chenyang Si</a><sup>3</sup></li>
+            <li><a href="https://haofanwang.github.io/" target="_blank" rel="noopener noreferrer">Haofan Wang</a><sup>4</sup></li>
+            <li><a href="https://shishaoshuai.com/" target="_blank" rel="noopener noreferrer">Shaoshuai Shi</a><sup>5</sup></li>
+            <li><a href="https://llijiang.github.io/" target="_blank" rel="noopener noreferrer">Li Jiang</a><sup>1,†</sup></li>
+          </ul>
+          <ul class="hero-affiliations" aria-label="Affiliations">
+            <li><sup>1</sup>The Chinese University of Hong Kong, Shenzhen</li>
+            <li><sup>2</sup>Alibaba Group</li>
+            <li><sup>3</sup>Nanjing University</li>
+            <li><sup>4</sup>Lovart AI</li>
+            <li><sup>5</sup>Voyager Research, Didi Chuxing</li>
+          </ul>
+          <p class="author-notes"><span>* Equal contribution</span><span>† Corresponding author</span></p>
+        </div>
+        <div class="hero-actions" aria-label="Project resources">
+          <button class="button secondary resource-pending" type="button" disabled title="Paper link coming soon">Paper<span>Coming soon</span></button>
+          <a class="button primary" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <button class="button secondary resource-pending" type="button" disabled title="Hugging Face model link coming soon">Model <small>HF</small><span>Coming soon</span></button>
+          <button class="button secondary resource-pending" type="button" disabled title="Dataset link coming soon">Dataset<span>Coming soon</span></button>
+        </div>
       </div>
       <div class="hero-bottom"><a class="hero-explore" href="#overview">Explore SMI<span aria-hidden="true"></span></a><button type="button" class="hero-pause" aria-label="Play background video" aria-pressed="false" hidden>Play background</button></div>
     </section>
@@ -40,7 +65,7 @@
       <div class="section-heading"><div><span class="section-kicker">01 / THE BIG PICTURE</span><h2 id="overview-title">Spatial Memory Intelligence</h2></div><p>From redundant visual histories<br>to useful spatial memories.</p></div>
       <figure class="figure-panel"><a href="assets/teaser.png" target="_blank" rel="noopener" aria-label="Open SMI overview figure at full resolution"><img src="assets/teaser.png" width="2640" height="1369" alt="Comparison of existing memory-management methods and SMI, illustrating memory sparsification, spatial consistency, and generation stability."></a><figcaption><span>SMI at a glance</span> Understanding-driven memory management connects spatial organization with action-aware retrieval. <a href="assets/teaser.pdf" target="_blank" rel="noopener">View PDF</a></figcaption></figure>
     </section>
-    <section class="abstract-band" aria-labelledby="abstract-title"><div class="abstract-inner"><div><span class="section-kicker">THE IDEA</span><h2 id="abstract-title">Memory management,<br>with understanding.</h2></div><div class="abstract-copy"><p>Video world models generate future observations from user actions and historical memory. As those histories grow, the challenge is no longer just how much to store, but how to organize, select, and maintain useful spatial context.</p><p><strong>Spatial Memory Intelligence (SMI)</strong> uses a multimodal large language model as a spatial-memory manager. Four coordinated atomic operations bring semantic and spatial reasoning into the memory-management pipeline, supporting improvements in memory sparsity, spatial consistency, and generation stability across multiple world-model backbones.</p></div></div></section>
+    <section class="abstract-band" aria-labelledby="abstract-title"><div class="abstract-inner"><div><span class="section-kicker">THE IDEA</span><h2 id="abstract-title">Memory management,<br>with understanding.</h2></div><div class="abstract-copy"><p>As historical memory grows, managing spatial memory becomes increasingly complex, requiring coordinated organization, maintenance, sparsification, and retrieval. This calls for a more intelligent and comprehensive memory-management approach.</p><p>We propose <strong>Spatial Memory Intelligence (SMI)</strong>, the first understanding-driven unified spatial-memory manager. Four coordinated atomic operations bring semantic and spatial reasoning into the memory-management pipeline, supporting improvements in memory sparsity, spatial consistency, and generation stability across multiple baselines, benchmarks, and world-model backbones.</p></div></div></section>
     <section class="section-wrap method" id="method" aria-labelledby="method-title">
       <div class="section-heading"><div><span class="section-kicker">02 / THE FRAMEWORK</span><h2 id="method-title">Method</h2></div><p>Organize, consolidate, retrieve,<br>and maintain spatial memory.</p></div>
       <figure class="figure-panel framework"><a href="assets/framework.png" target="_blank" rel="noopener" aria-label="Open SMI framework figure at full resolution"><img src="assets/framework.png" width="2399" height="1305" loading="lazy" alt="SMI architecture: an understanding model coordinates spatial clustering, within-cluster sparsification, action-aware retrieval, and reliability-aware filtering around persistent spatial memory."></a><figcaption><span>The SMI framework</span> An understanding model coordinates memory updates and retrieval for a video world model. <a href="assets/framework.pdf" target="_blank" rel="noopener">View PDF</a></figcaption></figure>
@@ -94,10 +119,10 @@
     <section class="section-wrap resources" id="resources" aria-labelledby="resources-title">
       <div class="section-heading"><div><span class="section-kicker">04 / EXPLORE FURTHER</span><h2 id="resources-title">Resources</h2></div><p>This page will grow with<br>the project’s public release.</p></div>
       <div class="resource-list">
-        <a class="resource-row available" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer"><span class="resource-number">01</span><div><h3>Code repository</h3><p>Private development repository. GitHub access is required.</p></div><span class="resource-status">Code · Private</span></a>
-        <div class="resource-row"><span class="resource-number">02</span><div><h3>Paper</h3><p>The paper link will be added here.</p></div><span class="status-pill">Coming soon</span></div>
-        <div class="resource-row"><span class="resource-number">03</span><div><h3>Data & model weights</h3><p>Resources for training and reproduction.</p></div><span class="status-pill">Coming soon</span></div>
-        <a class="resource-row available" href="#demos"><span class="resource-number">04</span><div><h3>Video demonstrations</h3><p>Explore spatial consistency and generation stability with synchronized comparisons.</p></div><span class="resource-status">Watch demos</span></a>
+        <div class="resource-row"><span class="resource-number">01</span><div><h3>Paper</h3><p>The paper link will be added here.</p></div><span class="status-pill">Coming soon</span></div>
+        <a class="resource-row available" href="https://github.com/spatial-memory-intelligence/SMI" target="_blank" rel="noopener noreferrer"><span class="resource-number">02</span><div><h3>GitHub</h3><p>Private development repository. GitHub access is required.</p></div><span class="resource-status">Code · Private</span></a>
+        <div class="resource-row"><span class="resource-number">03</span><div><h3>Model · Hugging Face</h3><p>Model weights will be linked here.</p></div><span class="status-pill">Coming soon</span></div>
+        <div class="resource-row"><span class="resource-number">04</span><div><h3>Dataset</h3><p>The dataset link will be added here.</p></div><span class="status-pill">Coming soon</span></div>
       </div>
     </section>
   </main>

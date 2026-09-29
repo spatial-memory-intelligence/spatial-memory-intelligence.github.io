@@ -15,7 +15,7 @@ CASES = [
     'hy15-11', 'hy15-25', 'hy15-62002', 'wan22-33',
     'hy15-108', 'hy15-62001', 'wan22-91', 'wan22-60065',
 ]
-START, DURATION, FPS, GAP = 0, 8, 24, 8
+START, DURATION, FPS, GAP = 0, 8, 24, 0
 
 
 def build(name, columns, cell_width, cell_height, gallery):
@@ -44,15 +44,15 @@ def build(name, columns, cell_width, cell_height, gallery):
     subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-i', str(target),
                     '-frames:v', '1', '-q:v', '4', str(OUT / f'{name}.jpg')], check=True)
     return {'file': target.relative_to(ROOT).as_posix(), 'columns': columns, 'rows': len(CASES)//columns,
-            'duration': DURATION, 'fps': FPS, 'bytes': target.stat().st_size, 'tiles': provenance}
+            'duration': DURATION, 'fps': FPS, 'gap': GAP, 'bytes': target.stat().st_size, 'tiles': provenance}
 
 
 if __name__ == '__main__':
     OUT.mkdir(parents=True, exist_ok=True)
     gallery = {c['id']: c for c in json.loads((ROOT/'demo-data.json').read_text(encoding='utf-8'))}
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
-        jobs = [pool.submit(build, 'wall-desktop', 4, 634, 354, gallery),
-                pool.submit(build, 'wall-mobile', 2, 380, 164, gallery)]
+        jobs = [pool.submit(build, 'wall-desktop', 4, 640, 360, gallery),
+                pool.submit(build, 'wall-mobile', 2, 384, 172, gallery)]
         manifest = [job.result() for job in jobs]
     (OUT/'sources.json').write_text(json.dumps(manifest, indent=2)+'\n', encoding='utf-8')
     print(json.dumps([{k:v for k,v in item.items() if k != 'tiles'} for item in manifest], indent=2))
