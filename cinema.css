@@ -6,7 +6,6 @@ nav a { position: relative; transition: color .2s; }
 nav a:not(.nav-github)::after { content: ''; position: absolute; left: 0; right: 100%; bottom: -7px; height: 1px; background: var(--mint); transition: right .2s; }
 nav a:hover::after { right: 0; }
 .nav-github { border-color: #8caa9270; border-radius: 4px; }
-.nav-pending { color: #bac6b6; font-size: 11px; cursor: default; }
 .hero { height: 56.25vw; min-height: 620px; max-height: calc(100svh - 68px); padding: 90px 3.5% 110px; background: var(--cinema); }
 .hero-media { inset: 0; background: #0c1411; }
 .hero-still, .hero-still img, .hero-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -34,9 +33,8 @@ nav a:hover::after { right: 0; }
 .hero .secondary { background: #0b17136e; }
 .hero .secondary:hover { background: #254135d9; border-color: #e1ecdf; }
 .hero .button:not(:disabled):hover { transform: translateY(-2px); }
-.hero .resource-pending { position: relative; padding-bottom: 24px; padding-top: 9px; color: #e0e8db; cursor: default; opacity: .85; }
+.hero .resource-pending { color: #e0e8db; cursor: default; opacity: .85; }
 .hero .resource-pending:hover { background: #0b17136e; border-color: #dbe8db75; }
-.resource-pending span { position: absolute; bottom: 5px; left: 0; right: 0; font-size: 8px; font-weight: 400; letter-spacing: .05em; color: #b3c3ad; }
 .resource-pending small { margin-left: 5px; padding-left: 5px; border-left: 1px solid #aabd9e70; font-size: 9px; color: #becfb4; }
 .hero-bottom { position: absolute; bottom: 26px; left: 4.5%; right: 4.5%; display: flex; align-items: center; justify-content: space-between; gap: 20px; color: #d1dccd; font-size: 11px; }
 .hero-explore { display: inline-flex; align-items: center; gap: 14px; font-size: 12px; }
@@ -112,7 +110,6 @@ footer { max-width: 1320px; }
   .hero-authors { gap:12px 18px; font-size:13px; }
   .hero-affiliations { max-width:580px; gap:3px 12px; margin-top:17px; font-size:10px; }
   .hero .button { padding:12px 20px; font-size:12px; }
-  .hero .resource-pending { padding-top:8px; padding-bottom:23px; }
   .eyebrow { font-size:10px; letter-spacing:.2em; }
 }
 @media (max-width: 560px) {
@@ -126,7 +123,6 @@ footer { max-width: 1320px; }
   .author-notes { font-size:9px; gap:16px; }
   .hero-actions { margin-top:22px; gap:8px; }
   .hero .button { padding:11px 12px; font-size:11px; }
-  .hero .resource-pending { padding-top:8px; padding-bottom:23px; }
   .hero-bottom { bottom:20px; font-size:10px; }
   .hero-explore, .hero-pause { font-size:10px; }
   .hero-explore span { width:23px; }
