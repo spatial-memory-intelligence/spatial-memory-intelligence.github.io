@@ -13,7 +13,7 @@ SMI uses a multimodal large language model to coordinate four spatial-memory ope
 
 ## Release status
 
-This repository hosts the project website and selected video demonstrations. The code repository is maintained separately at [xbyym/SMI](https://github.com/xbyym/SMI) and is currently private. Paper, data, and model-weight links will be added as resources become available.
+This repository hosts the project website and selected video demonstrations. The public code repository is maintained separately at [xbyym/SMI](https://github.com/xbyym/SMI); the research implementation is coming soon. Paper, data, and model-weight links will be added as resources become available.
 
 ## Video demonstrations
 
