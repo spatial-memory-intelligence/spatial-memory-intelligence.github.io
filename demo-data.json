@@ -2417,6 +2417,25 @@
     }
   },
   {
+    "id": "hy15-108",
+    "backbone": "HY1.5",
+    "case": "108",
+    "category": "Generation stability",
+    "paper": "Teaser · generation stability example",
+    "all_methods": false,
+    "methods": {
+      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-108/base.mp4",
+      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-108/smi-seed26902010.mp4"
+    },
+    "posters": {
+      "Base": "assets/posters/hy15-108-base.jpg",
+      "SMI": "assets/posters/hy15-108-smi-seed26902010.jpg"
+    },
+    "duration": 65.208333,
+    "fps": "24/1",
+    "annotations": []
+  },
+  {
     "id": "hy15-5",
     "backbone": "HY1.5",
     "case": "5",
@@ -3725,25 +3744,6 @@
     ]
   },
   {
-    "id": "hy15-108",
-    "backbone": "HY1.5",
-    "case": "108",
-    "category": "Generation stability",
-    "paper": "Teaser · generation stability example",
-    "all_methods": false,
-    "methods": {
-      "Base": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-108/base.mp4",
-      "SMI": "https://raw.githubusercontent.com/spatial-memory-intelligence/spatial-memory-intelligence.github.io/main/assets/videos/hy15-108/smi.mp4"
-    },
-    "posters": {
-      "Base": "assets/posters/hy15-108-base.jpg",
-      "SMI": "assets/posters/hy15-108-smi.jpg"
-    },
-    "duration": 65.208333,
-    "fps": "24/1",
-    "annotations": []
-  },
-  {
     "id": "hy15-11",
     "backbone": "HY1.5",
     "case": "11",
@@ -3840,13 +3840,55 @@
         "reason": "User-selected left kitchen region: the microwave, cooking area, and countertop change on revisiting.",
         "focusTime": 21.5,
         "keys": [
-          [18, 0.005, 0.015, 0.16, 0.985],
-          [19, 0.005, 0.015, 0.205, 0.985],
-          [20, 0.005, 0.015, 0.155, 0.985],
-          [21, 0.005, 0.015, 0.23, 0.985],
-          [22, 0.005, 0.015, 0.32, 0.985],
-          [23, 0.005, 0.015, 0.35, 0.985],
-          [24, 0.005, 0.015, 0.32, 0.985]
+          [
+            18,
+            0.005,
+            0.015,
+            0.16,
+            0.985
+          ],
+          [
+            19,
+            0.005,
+            0.015,
+            0.205,
+            0.985
+          ],
+          [
+            20,
+            0.005,
+            0.015,
+            0.155,
+            0.985
+          ],
+          [
+            21,
+            0.005,
+            0.015,
+            0.23,
+            0.985
+          ],
+          [
+            22,
+            0.005,
+            0.015,
+            0.32,
+            0.985
+          ],
+          [
+            23,
+            0.005,
+            0.015,
+            0.35,
+            0.985
+          ],
+          [
+            24,
+            0.005,
+            0.015,
+            0.32,
+            0.985
+          ]
         ]
       }
     ],

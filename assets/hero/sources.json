@@ -6,7 +6,7 @@
     "duration": 8,
     "fps": 24,
     "gap": 0,
-    "bytes": 11937014,
+    "bytes": 11915523,
     "tiles": [
       {
         "case": "hy15-62003",
@@ -95,7 +95,7 @@
       {
         "case": "hy15-108",
         "method": "SMI",
-        "source": "assets/videos/hy15-108/smi.mp4",
+        "source": "assets/videos/hy15-108/smi-seed26902010.mp4",
         "start": 0,
         "end": 8
       },
@@ -129,7 +129,7 @@
     "duration": 8,
     "fps": 24,
     "gap": 0,
-    "bytes": 3849232,
+    "bytes": 3843186,
     "tiles": [
       {
         "case": "hy15-62003",
@@ -218,7 +218,7 @@
       {
         "case": "hy15-108",
         "method": "SMI",
-        "source": "assets/videos/hy15-108/smi.mp4",
+        "source": "assets/videos/hy15-108/smi-seed26902010.mp4",
         "start": 0,
         "end": 8
       },
