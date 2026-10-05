@@ -154,3 +154,21 @@ footer { max-width: 1320px; }
   *, *::before, *::after { animation:none!important; transition:none!important; }
   .reveal { opacity:1; transform:none; }
 }
+
+.citation { padding-bottom:86px; }
+.citation .section-heading { margin-bottom:24px; }
+.citation-intro { font-size:16px; line-height:1.8; margin-bottom:24px; }
+.citation-card { min-width:0; border:1px solid var(--line); border-radius:4px; background:#f6f8f6; overflow:hidden; }
+.citation-toolbar { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; padding:14px 22px; border-bottom:1px solid var(--line); color:var(--muted); font-size:12px; }
+.citation-actions { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.citation-copy { padding:8px 12px; border:1px solid #bdc9c1; border-radius:3px; background:transparent; color:var(--ink); font-size:12px; }
+.citation-copy:hover { background:#e9eeea; }
+.citation-code { margin:0; padding:22px; overflow-x:auto; font:13px/1.85 Consolas,"Liberation Mono",monospace; tab-size:2; }
+.citation-code code { font:inherit; }
+.citation-code:focus-visible { outline:2px solid #69928b; outline-offset:-3px; }
+@media (max-width:560px) {
+  .citation { padding-bottom:48px; }
+  .citation-intro { font-size:14px; }
+  .citation-toolbar { padding:12px 14px; }
+  .citation-code { padding:16px 14px; font-size:12px; }
+}
