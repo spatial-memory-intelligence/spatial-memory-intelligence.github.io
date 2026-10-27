@@ -13,7 +13,7 @@ SMI uses a multimodal large language model to coordinate four spatial-memory ope
 
 ## Release status
 
-This repository hosts the project website and selected video demonstrations. The [paper is available on arXiv](https://arxiv.org/abs/2610.02521). The public code repository is maintained separately at [xbyym/Spatial-Memory-Intelligence](https://github.com/xbyym/Spatial-Memory-Intelligence); the research implementation is coming soon. Data and model-weight links will be added as resources become available.
+This repository hosts the project website and selected video demonstrations. The [paper is available on arXiv](https://arxiv.org/abs/2610.02521), and the implementation is available at [xbyym/Spatial-Memory-Intelligence](https://github.com/xbyym/Spatial-Memory-Intelligence). [Model weights](https://huggingface.co/datasets/yycfq1314/SMI/tree/main/models) and [training and evaluation data](https://huggingface.co/datasets/yycfq1314/SMI/tree/main/datasets) are available on Hugging Face.
 
 ## Video demonstrations
 
