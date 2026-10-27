@@ -38,7 +38,7 @@ nav a:hover::after { right: 0; }
 .hero .button:not(:disabled):hover { transform: translateY(-2px); }
 .hero .resource-pending { color: #e0e8db; cursor: default; opacity: .85; }
 .hero .resource-pending:hover { background: #0b17136e; border-color: #dbe8db75; }
-.resource-pending small { margin-left: 5px; padding-left: 5px; border-left: 1px solid #aabd9e70; font-size: 9px; color: #becfb4; }
+.hero-actions .button small { margin-left: 5px; padding-left: 5px; border-left: 1px solid #aabd9e70; font-size: 9px; color: #becfb4; }
 .hero-bottom { position: absolute; bottom: 26px; left: 4.5%; right: 4.5%; display: flex; align-items: center; justify-content: space-between; gap: 20px; color: #d1dccd; font-size: 11px; }
 .hero-explore { display: inline-flex; align-items: center; gap: 14px; font-size: 12px; }
 .hero-explore span { width: 36px; height: 1px; background: #c4d5bd; transition: width .2s; }
